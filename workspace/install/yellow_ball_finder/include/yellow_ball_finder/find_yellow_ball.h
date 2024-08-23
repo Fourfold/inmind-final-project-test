@@ -36,11 +36,14 @@ public:
             _1
         );
         receivedResult = false;
+        frame_width = 0;
+        cx = 0;
+        cy = 0;
     }
 
     static BT::PortsList providedPorts()
     {
-        return {BT::OutputPort<int>("cx"), BT::OutputPort<int>("cy")};
+        return {BT::OutputPort<int>("frame_width"), BT::OutputPort<int>("cx"), BT::OutputPort<int>("cy")};
     }
 
     BT::NodeStatus tick() override {
@@ -49,8 +52,9 @@ public:
         rclcpp::spin_until_future_complete(this->get_node_base_interface(), result);
 
         if (receivedResult) {
-            setOutput("cx", cx);
-            setOutput("cy", cy);
+            setOutput<int>("frame_width", frame_width);
+            setOutput<int>("cx", cx);
+            setOutput<int>("cy", cy);
             return BT::NodeStatus::SUCCESS;
         } else {
             return BT::NodeStatus::FAILURE;
@@ -86,16 +90,15 @@ private:
                 return;
         }
         receivedResult = result.result->found;
+        frame_width = result.result->frame_width;
         cx = result.result->cx;
         cy = result.result->cy;
-        if (receivedResult) {
-            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Received result: FOUND");
-        }
     }
 
     rclcpp_action::Client<FindYellow>::SendGoalOptions send_goal_options;
     rclcpp_action::Client<FindYellow>::SharedPtr action_client;
     bool receivedResult;
+    int frame_width;
     int cx;
     int cy;
 };

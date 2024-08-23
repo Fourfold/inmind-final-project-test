@@ -75,16 +75,32 @@ private:
   ::detection_interfaces::action::FindYellow_Result msg_;
 };
 
+class Init_FindYellow_Result_frame_width
+{
+public:
+  explicit Init_FindYellow_Result_frame_width(::detection_interfaces::action::FindYellow_Result & msg)
+  : msg_(msg)
+  {}
+  Init_FindYellow_Result_cx frame_width(::detection_interfaces::action::FindYellow_Result::_frame_width_type arg)
+  {
+    msg_.frame_width = std::move(arg);
+    return Init_FindYellow_Result_cx(msg_);
+  }
+
+private:
+  ::detection_interfaces::action::FindYellow_Result msg_;
+};
+
 class Init_FindYellow_Result_found
 {
 public:
   Init_FindYellow_Result_found()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_FindYellow_Result_cx found(::detection_interfaces::action::FindYellow_Result::_found_type arg)
+  Init_FindYellow_Result_frame_width found(::detection_interfaces::action::FindYellow_Result::_found_type arg)
   {
     msg_.found = std::move(arg);
-    return Init_FindYellow_Result_cx(msg_);
+    return Init_FindYellow_Result_frame_width(msg_);
   }
 
 private:

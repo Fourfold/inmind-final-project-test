@@ -40,6 +40,7 @@ typedef struct detection_interfaces__action__FindYellow_Goal__Sequence
 typedef struct detection_interfaces__action__FindYellow_Result
 {
   bool found;
+  int32_t frame_width;
   int32_t cx;
   int32_t cy;
 } detection_interfaces__action__FindYellow_Result;

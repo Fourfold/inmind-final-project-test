@@ -13,25 +13,30 @@ public:
 
     static BT::PortsList providedPorts()
     {
-        return {BT::InputPort<int>("cx")};
+        return {BT::InputPort<int>("frame_width"), BT::InputPort<int>("cx")};
     }
 
     BT::NodeStatus tick() override {
-        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "At center called.");
-
         BT::Optional<int> cxOptional = getInput<int>("cx");
 
         if (!cxOptional) {
             throw BT::RuntimeError("Invalid required input message: ", cxOptional.error());
         }
 
-        int cx = cxOptional.value();
+        BT::Optional<int> frameWidthOptional = getInput<int>("frame_width");
 
-        int frame_center = 1000 / 2; // TODO: change
+        if (!frameWidthOptional) {
+            throw BT::RuntimeError("Invalid required input message: ", frameWidthOptional.error());
+        }
+
+        int cx = cxOptional.value();
+        int frame_width = frameWidthOptional.value();
+
+        int frame_center = frame_width / 2;
         int error_x = cx - frame_center;
 
         // Rotation direction based on error
-        if (std::abs(error_x) > 100)
+        if (std::abs(error_x) > 20)
         {
             return BT::NodeStatus::FAILURE;
         }

@@ -13,6 +13,8 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
+#include <iostream>
+
 using FindYellow = detection_interfaces::action::FindYellow;
 using GoalHandleFindYellow = rclcpp_action::ServerGoalHandle<FindYellow>;
 
@@ -47,7 +49,7 @@ YellowBallActionServer::YellowBallActionServer() : Node("yellow_ball_action_serv
 }
 
 rclcpp_action::GoalResponse YellowBallActionServer::handle_goal(const rclcpp_action::GoalUUID & uuid, std::shared_ptr<const FindYellow::Goal> goal) {
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Received goal request.");
+    // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Received goal request.");
     (void)uuid;
     (void)goal;
     return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
@@ -77,7 +79,7 @@ void YellowBallActionServer::execute(const std::shared_ptr<GoalHandleFindYellow>
     cv::cvtColor(cv_ptr->image, hsv_image, cv::COLOR_BGR2HSV);
 
     // Define the range for yellow color in HSV
-    cv::Scalar lower_yellow(20, 100, 100);
+    cv::Scalar lower_yellow(10, 70, 70);
     cv::Scalar upper_yellow(30, 255, 255);
 
     // Threshold the HSV image to get only yellow colors
@@ -104,7 +106,7 @@ void YellowBallActionServer::execute(const std::shared_ptr<GoalHandleFindYellow>
         }
 
         // If a valid contour is found
-        if (largest_contour_index >= 0 && max_area > 500)
+        if (largest_contour_index >= 0 && max_area > 20)
         {
             // Calculate the centroid of the largest contour
             cv::Moments M = cv::moments(contours[largest_contour_index]);
@@ -120,10 +122,12 @@ void YellowBallActionServer::execute(const std::shared_ptr<GoalHandleFindYellow>
     auto result = std::make_shared<FindYellow::Result>();
     if (sphere_detected) {
         result->found = true;
+        result->frame_width = frame_width;
         result->cx = cx;
         result->cy = cy;
     } else {
         result->found = false;
+        result->frame_width = frame_width;
         result->cx = -1;
         result->cy = -1;
     }

@@ -729,6 +729,7 @@ CMakeFiles/main_node.dir/src/main.cpp.o
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/rotate_right.h
  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_right.h
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_left.h
  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/halt.h
  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h
  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_yellow.hpp
@@ -802,6 +803,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp
  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h
  /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include/main/wait.h
  /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h
 

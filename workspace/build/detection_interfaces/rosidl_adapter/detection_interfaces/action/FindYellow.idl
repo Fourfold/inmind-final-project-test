@@ -11,6 +11,8 @@ module detection_interfaces {
     struct FindYellow_Result {
       boolean found;
 
+      int32 frame_width;
+
       int32 cx;
 
       int32 cy;

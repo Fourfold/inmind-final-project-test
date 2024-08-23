@@ -243,6 +243,7 @@ detection_interfaces__action__FindYellow_Result__init(detection_interfaces__acti
     return false;
   }
   // found
+  // frame_width
   // cx
   // cy
   return true;
@@ -255,6 +256,7 @@ detection_interfaces__action__FindYellow_Result__fini(detection_interfaces__acti
     return;
   }
   // found
+  // frame_width
   // cx
   // cy
 }
@@ -267,6 +269,10 @@ detection_interfaces__action__FindYellow_Result__are_equal(const detection_inter
   }
   // found
   if (lhs->found != rhs->found) {
+    return false;
+  }
+  // frame_width
+  if (lhs->frame_width != rhs->frame_width) {
     return false;
   }
   // cx
@@ -290,6 +296,8 @@ detection_interfaces__action__FindYellow_Result__copy(
   }
   // found
   output->found = input->found;
+  // frame_width
+  output->frame_width = input->frame_width;
   // cx
   output->cx = input->cx;
   // cy

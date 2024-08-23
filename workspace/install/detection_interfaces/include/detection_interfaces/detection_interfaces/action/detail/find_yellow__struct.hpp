@@ -146,6 +146,7 @@ struct FindYellow_Result_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->found = false;
+      this->frame_width = 0l;
       this->cx = 0l;
       this->cy = 0l;
     }
@@ -158,6 +159,7 @@ struct FindYellow_Result_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->found = false;
+      this->frame_width = 0l;
       this->cx = 0l;
       this->cy = 0l;
     }
@@ -167,6 +169,9 @@ struct FindYellow_Result_
   using _found_type =
     bool;
   _found_type found;
+  using _frame_width_type =
+    int32_t;
+  _frame_width_type frame_width;
   using _cx_type =
     int32_t;
   _cx_type cx;
@@ -179,6 +184,12 @@ struct FindYellow_Result_
     const bool & _arg)
   {
     this->found = _arg;
+    return *this;
+  }
+  Type & set__frame_width(
+    const int32_t & _arg)
+  {
+    this->frame_width = _arg;
     return *this;
   }
   Type & set__cx(
@@ -237,6 +248,9 @@ struct FindYellow_Result_
   bool operator==(const FindYellow_Result_ & other) const
   {
     if (this->found != other.found) {
+      return false;
+    }
+    if (this->frame_width != other.frame_width) {
       return false;
     }
     if (this->cx != other.cx) {

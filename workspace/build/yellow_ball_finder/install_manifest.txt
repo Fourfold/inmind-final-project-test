@@ -1,4 +1,6 @@
 /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder/yellow_ball_at_center.h
+/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder/yellow_ball_on_right.h
+/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder/yellow_ball_on_left.h
 /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder/yellow_ball_action_server.h
 /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder/find_yellow_ball.h
 /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib/yellow_ball_finder/yellow_ball_action_server

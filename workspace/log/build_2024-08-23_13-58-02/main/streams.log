@@ -1,0 +1,42 @@
+[0.007s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[0.044s] [ 50%] Built target test_node
+[0.048s] [ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[1.492s] In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:5[m[K:
+[1.492s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In member function ‘[01m[Kvoid FindYellowBall::goal_response_callback(const SharedPtr&)[m[K’:
+[1.492s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:62:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.492s]    62 | l_response_callback([01;35m[Kconst GoalHandleFindYellow::SharedPtr & goal_handle[m[K) {
+[1.492s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[1.492s] 
+[1.492s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In member function ‘[01m[Kvoid FindYellowBall::feedback_callback(rclcpp_action::ClientGoalHandle<detection_interfaces::action::FindYellow>::SharedPtr, std::shared_ptr<const detection_interfaces::action::FindYellow_Feedback_<std::allocator<void> > >)[m[K’:
+[1.492s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:72:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.492s]    72 |         [01;35m[Kconst std::shared_ptr<const FindYellow::Feedback> feedback[m[K
+[1.492s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.527s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:[m[K In constructor ‘[01m[KMainNode::MainNode()[m[K’:
+[1.527s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:29:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.527s]    29 |         BT::NodeStatus [01;35m[Kstatus[m[K = tree.tickRoot();
+[1.527s]       |                        [01;35m[K^~~~~~[m[K
+[3.900s] [100%] [32m[1mLinking CXX executable main_node[0m
+[4.108s] [100%] Built target main_node
+[4.118s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[4.141s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/main
+[4.149s] -- Install configuration: ""
+[4.149s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node
+[4.150s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node" to ""
+[4.150s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/test_node
+[4.150s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[4.150s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[4.150s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.sh
+[4.150s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.dsv
+[4.150s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.sh
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.dsv
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.bash
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.sh
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.zsh
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.dsv
+[4.151s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.dsv
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/packages/main
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig.cmake
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig-version.cmake
+[4.151s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.xml
+[4.152s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/main

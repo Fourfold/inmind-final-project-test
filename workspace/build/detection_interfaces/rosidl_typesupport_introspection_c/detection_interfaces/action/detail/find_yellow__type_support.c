@@ -119,7 +119,7 @@ void detection_interfaces__action__FindYellow_Result__rosidl_typesupport_introsp
   detection_interfaces__action__FindYellow_Result__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember detection_interfaces__action__FindYellow_Result__rosidl_typesupport_introspection_c__FindYellow_Result_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember detection_interfaces__action__FindYellow_Result__rosidl_typesupport_introspection_c__FindYellow_Result_message_member_array[4] = {
   {
     "found",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -129,6 +129,23 @@ static rosidl_typesupport_introspection_c__MessageMember detection_interfaces__a
     0,  // array size
     false,  // is upper bound
     offsetof(detection_interfaces__action__FindYellow_Result, found),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "frame_width",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(detection_interfaces__action__FindYellow_Result, frame_width),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -176,7 +193,7 @@ static rosidl_typesupport_introspection_c__MessageMember detection_interfaces__a
 static const rosidl_typesupport_introspection_c__MessageMembers detection_interfaces__action__FindYellow_Result__rosidl_typesupport_introspection_c__FindYellow_Result_message_members = {
   "detection_interfaces__action",  // message namespace
   "FindYellow_Result",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(detection_interfaces__action__FindYellow_Result),
   detection_interfaces__action__FindYellow_Result__rosidl_typesupport_introspection_c__FindYellow_Result_message_member_array,  // message members
   detection_interfaces__action__FindYellow_Result__rosidl_typesupport_introspection_c__FindYellow_Result_init_function,  // function to initialize message memory (memory has to be allocated)

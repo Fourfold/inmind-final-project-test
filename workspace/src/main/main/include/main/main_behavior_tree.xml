@@ -2,9 +2,9 @@
     
     <BehaviorTree ID="FindBallSubtree">
         <Sequence name="root_sequence">
-            <RetryUntilSuccessful num_attempts="100">
+            <RetryUntilSuccessful num_attempts="1000">
                 <Fallback name="find_ball">
-                    <FindYellowBall/>
+                    <FindYellowBall frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
                     <ForceFailure>
                         <Sequence name="rotate_right">
                             <RotateRight/>
@@ -18,22 +18,40 @@
     </BehaviorTree>
 
     <BehaviorTree ID="MainTree">
-        <RetryUntilSuccessful num_attempts="100">
+        <RetryUntilSuccessful num_attempts="100000">
             <Sequence name="center_robot">
-                <SubTree ID="FindBallSubtree"/>
-                <Fallback name="rotate_robot">
-                    <Sequence name="approach_ball">
-                        <YellowBallAtCenter cx="{cx}"/>
-                        <MoveForward/>
-                        <Wait/>
-                    </Sequence>
-                    <ForceFailure>
-                        <Sequence name="rotate_right">
-                            <RotateRight/>
-                            <Wait/>
+                <RetryUntilSuccessful num_attempts="100000">
+                    <Fallback name="find_ball">
+                        <FindYellowBall frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
+                        <ForceFailure>
+                            <Sequence name="rotate_right">
+                                <RotateRight/>
+                            </Sequence>
+                        </ForceFailure>
+                    </Fallback>
+                </RetryUntilSuccessful>
+                <!-- <SubTree ID="FindBallSubtree"/> -->
+                <ForceFailure>
+                    <Fallback name="rotate_robot">
+                        <Sequence name="approach_ball">
+                            <YellowBallAtCenter frame_width="{FrameWidth}" cx="{CX}"/>
+                            <MoveForward/>
                         </Sequence>
-                    </ForceFailure>
-                </Fallback>
+                        <Sequence name="rotate_right">
+                            <YellowBallOnRight frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
+                            <MoveForwardRight error_x="{ErrorX}"/>
+                        </Sequence>
+                        <Sequence name="rotate_left">
+                            <YellowBallOnLeft frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
+                            <MoveForwardLeft  error_x="{ErrorX}"/>
+                        </Sequence>
+                        <ForceFailure>
+                            <Sequence name="rotate_right">
+                                <RotateRight/>
+                            </Sequence>
+                        </ForceFailure>
+                    </Fallback>
+                </ForceFailure>
             </Sequence>
         </RetryUntilSuccessful>
     </BehaviorTree>

@@ -14,7 +14,14 @@ public:
     }
     BT::NodeStatus tick() override {
         geometry_msgs::msg::Twist msg;
+        msg.linear.x = 0;
+        msg.linear.y = 0;
+        msg.linear.z = 0;
+        msg.angular.x = 0;
+        msg.angular.y = 0;
+        msg.angular.z = 0;
         cmd_vel_pub_->publish(msg);
+        std::this_thread::sleep_for(std::chrono::milliseconds(50));
         return BT::NodeStatus::SUCCESS;
     }
 private:

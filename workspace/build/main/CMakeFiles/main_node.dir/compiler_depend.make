@@ -728,6 +728,7 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/rotate_right.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_right.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_left.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/halt.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_yellow.hpp \
@@ -801,6 +802,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include/main/wait.h \
   /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h
 
@@ -1275,6 +1278,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
+/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_left.h:
+
 /usr/include/c++/11/unordered_set:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -1424,6 +1429,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/c++/11/iostream:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h:
 
 /usr/include/c++/11/bits/node_handle.h:
 
@@ -2172,6 +2179,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h:
 
 /opt/ros/humble/include/rcl/rcl/wait.h:
 

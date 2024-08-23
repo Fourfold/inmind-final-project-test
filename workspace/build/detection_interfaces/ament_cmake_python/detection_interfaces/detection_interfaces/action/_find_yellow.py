@@ -157,18 +157,21 @@ class FindYellow_Result(metaclass=Metaclass_FindYellow_Result):
 
     __slots__ = [
         '_found',
+        '_frame_width',
         '_cx',
         '_cy',
     ]
 
     _fields_and_field_types = {
         'found': 'boolean',
+        'frame_width': 'int32',
         'cx': 'int32',
         'cy': 'int32',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
     )
@@ -178,6 +181,7 @@ class FindYellow_Result(metaclass=Metaclass_FindYellow_Result):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.found = kwargs.get('found', bool())
+        self.frame_width = kwargs.get('frame_width', int())
         self.cx = kwargs.get('cx', int())
         self.cy = kwargs.get('cy', int())
 
@@ -212,6 +216,8 @@ class FindYellow_Result(metaclass=Metaclass_FindYellow_Result):
             return False
         if self.found != other.found:
             return False
+        if self.frame_width != other.frame_width:
+            return False
         if self.cx != other.cx:
             return False
         if self.cy != other.cy:
@@ -235,6 +241,21 @@ class FindYellow_Result(metaclass=Metaclass_FindYellow_Result):
                 isinstance(value, bool), \
                 "The 'found' field must be of type 'bool'"
         self._found = value
+
+    @builtins.property
+    def frame_width(self):
+        """Message field 'frame_width'."""
+        return self._frame_width
+
+    @frame_width.setter
+    def frame_width(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'frame_width' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'frame_width' field must be an integer in [-2147483648, 2147483647]"
+        self._frame_width = value
 
     @builtins.property
     def cx(self):

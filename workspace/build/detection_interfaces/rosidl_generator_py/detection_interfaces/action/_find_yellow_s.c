@@ -135,6 +135,15 @@ bool detection_interfaces__action__find_yellow__result__convert_from_py(PyObject
     ros_message->found = (Py_True == field);
     Py_DECREF(field);
   }
+  {  // frame_width
+    PyObject * field = PyObject_GetAttrString(_pymsg, "frame_width");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->frame_width = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
   {  // cx
     PyObject * field = PyObject_GetAttrString(_pymsg, "cx");
     if (!field) {
@@ -180,6 +189,17 @@ PyObject * detection_interfaces__action__find_yellow__result__convert_to_py(void
     field = PyBool_FromLong(ros_message->found ? 1 : 0);
     {
       int rc = PyObject_SetAttrString(_pymessage, "found", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // frame_width
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->frame_width);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "frame_width", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

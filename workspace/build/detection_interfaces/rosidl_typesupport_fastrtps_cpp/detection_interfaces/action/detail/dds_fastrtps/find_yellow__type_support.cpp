@@ -245,6 +245,8 @@ cdr_serialize(
 {
   // Member: found
   cdr << (ros_message.found ? true : false);
+  // Member: frame_width
+  cdr << ros_message.frame_width;
   // Member: cx
   cdr << ros_message.cx;
   // Member: cy
@@ -264,6 +266,9 @@ cdr_deserialize(
     cdr >> tmp;
     ros_message.found = tmp ? true : false;
   }
+
+  // Member: frame_width
+  cdr >> ros_message.frame_width;
 
   // Member: cx
   cdr >> ros_message.cx;
@@ -290,6 +295,12 @@ get_serialized_size(
   // Member: found
   {
     size_t item_size = sizeof(ros_message.found);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: frame_width
+  {
+    size_t item_size = sizeof(ros_message.frame_width);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -335,6 +346,15 @@ max_serialized_size_FindYellow_Result(
 
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: frame_width
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
   // Member: cx

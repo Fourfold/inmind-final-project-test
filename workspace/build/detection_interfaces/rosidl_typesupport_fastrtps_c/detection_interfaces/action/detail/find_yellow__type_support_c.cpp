@@ -247,6 +247,11 @@ static bool _FindYellow_Result__cdr_serialize(
     cdr << (ros_message->found ? true : false);
   }
 
+  // Field name: frame_width
+  {
+    cdr << ros_message->frame_width;
+  }
+
   // Field name: cx
   {
     cdr << ros_message->cx;
@@ -274,6 +279,11 @@ static bool _FindYellow_Result__cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message->found = tmp ? true : false;
+  }
+
+  // Field name: frame_width
+  {
+    cdr >> ros_message->frame_width;
   }
 
   // Field name: cx
@@ -306,6 +316,12 @@ size_t get_serialized_size_detection_interfaces__action__FindYellow_Result(
   // field.name found
   {
     size_t item_size = sizeof(ros_message->found);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name frame_width
+  {
+    size_t item_size = sizeof(ros_message->frame_width);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -356,6 +372,14 @@ size_t max_serialized_size_detection_interfaces__action__FindYellow_Result(
 
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: frame_width
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: cx
   {

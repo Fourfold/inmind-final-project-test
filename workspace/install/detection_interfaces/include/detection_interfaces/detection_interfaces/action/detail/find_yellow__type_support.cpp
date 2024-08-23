@@ -156,7 +156,7 @@ void FindYellow_Result_fini_function(void * message_memory)
   typed_message->~FindYellow_Result();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember FindYellow_Result_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember FindYellow_Result_message_member_array[4] = {
   {
     "found",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
@@ -166,6 +166,23 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember FindYellow_Re
     0,  // array size
     false,  // is upper bound
     offsetof(detection_interfaces::action::FindYellow_Result, found),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "frame_width",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(detection_interfaces::action::FindYellow_Result, frame_width),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -213,7 +230,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember FindYellow_Re
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers FindYellow_Result_message_members = {
   "detection_interfaces::action",  // message namespace
   "FindYellow_Result",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(detection_interfaces::action::FindYellow_Result),
   FindYellow_Result_message_member_array,  // message members
   FindYellow_Result_init_function,  // function to initialize message memory (memory has to be allocated)
