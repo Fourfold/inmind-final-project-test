@@ -1,0 +1,16 @@
+[33mCMake Warning at /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'yellow_ball_finder' exports the include directory
+  '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake/../../../include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake/yellow_ball_finderConfig.cmake:41 (include)
+  CMakeLists.txt:16 (find_package)
+
+[0m
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kyellow_ball_finder/find_yellow_ball.h: No such file or directory
+    4 | #include [01;31m[K<yellow_ball_finder/find_yellow_ball.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

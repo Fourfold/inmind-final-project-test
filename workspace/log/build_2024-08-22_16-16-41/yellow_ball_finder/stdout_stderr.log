@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target yellow_ball_action_server[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o[0m
+[ 75%] Built target yellow_sphere_finder
+[100%] [32m[1mLinking CXX executable yellow_ball_action_server[0m
+/usr/bin/ld: CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o: in function `void __gnu_cxx::new_allocator<YellowBallActionServer>::construct<YellowBallActionServer>(YellowBallActionServer*)':
+yellow_ball_action_server.cpp:(.text._ZN9__gnu_cxx13new_allocatorI22YellowBallActionServerE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI22YellowBallActionServerE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `YellowBallActionServer::YellowBallActionServer()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/yellow_ball_action_server.dir/build.make:257: yellow_ball_action_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/yellow_ball_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

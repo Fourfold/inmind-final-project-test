@@ -1,0 +1,5 @@
+[0.005s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16
+[0.033s] gmake[2]: *** No rule to make target 'CMakeFiles/basic_navigation.dir/build'.  Stop.
+[0.033s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/basic_navigation.dir/all] Error 2
+[0.033s] gmake: *** [Makefile:146: all] Error 2
+[0.035s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16

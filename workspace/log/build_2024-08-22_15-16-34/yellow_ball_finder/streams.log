@@ -1,0 +1,33 @@
+[0.007s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder -- -j16 -l16
+[0.041s] [ 50%] Built target yellow_sphere_finder
+[0.042s] [ 75%] [32mBuilding CXX object CMakeFiles/image_collector.dir/src/image_collector.cpp.o[0m
+[5.251s] [100%] [32m[1mLinking CXX executable image_collector[0m
+[5.644s] [100%] Built target image_collector
+[5.653s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder -- -j16 -l16
+[5.671s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder
+[5.676s] -- Install configuration: ""
+[5.676s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/
+[5.676s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder
+[5.676s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder/image_collector.h
+[5.676s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder/find_yellow_ball.h
+[5.676s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include//yellow_ball_finder/yellow_ball_follower.h
+[5.676s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib/yellow_ball_finder/yellow_sphere_finder
+[5.676s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib/yellow_ball_finder/image_collector
+[5.678s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib/yellow_ball_finder/image_collector" to ""
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/ament_index/resource_index/package_run_dependencies/yellow_ball_finder
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/ament_index/resource_index/parent_prefix_path/yellow_ball_finder
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/environment/ament_prefix_path.sh
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/environment/ament_prefix_path.dsv
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/environment/path.sh
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/environment/path.dsv
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/local_setup.bash
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/local_setup.sh
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/local_setup.zsh
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/local_setup.dsv
+[5.678s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.dsv
+[5.678s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/ament_index/resource_index/packages/yellow_ball_finder
+[5.679s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.679s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake/yellow_ball_finderConfig.cmake
+[5.679s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake/yellow_ball_finderConfig-version.cmake
+[5.679s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.xml
+[5.680s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder

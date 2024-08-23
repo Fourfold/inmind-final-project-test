@@ -1,0 +1,11 @@
+[0.004s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[0.160s] In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:1[m[K:
+[0.160s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward.h:6:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.160s]     6 | #include [01;31m[K<geometry_msgs/msg/twist.hpp>[m[K
+[0.160s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.160s] compilation terminated.
+[0.169s] gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+[0.169s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+[0.170s] gmake: *** [Makefile:146: all] Error 2
+[0.171s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '2': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16

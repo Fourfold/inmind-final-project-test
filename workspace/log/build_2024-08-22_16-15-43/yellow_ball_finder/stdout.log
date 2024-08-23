@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target yellow_sphere_finder[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o[0m
+[ 75%] Built target yellow_sphere_finder

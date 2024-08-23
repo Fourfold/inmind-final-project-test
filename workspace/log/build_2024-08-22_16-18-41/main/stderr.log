@@ -1,0 +1,17 @@
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus FindYellowBall::tick()[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_ptr[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_ptr[m[K’?
+   23 |         if ([01;31m[Kcv_ptr[m[K == nullptr) {
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Ksi_ptr[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:28:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_ptr[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_ptr[m[K’?
+   28 |         frame_width_ = [01;31m[Kcv_ptr[m[K->image.cols;
+      |                        [01;31m[K^~~~~~[m[K
+      |                        [32m[Ksi_ptr[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:[m[K In constructor ‘[01m[KMainNode::MainNode()[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:22:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   22 |         BT::NodeStatus [01;35m[Kstatus[m[K = tree.tickRoot();
+      |                        [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

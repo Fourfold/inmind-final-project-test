@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target move_forward_node[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/move_forward_node.dir/src/move_forward.cpp.o[0m
+[1.515s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[1.515s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[1.515s]                  from [01m[K/usr/include/c++/11/bits/stl_tree.h:64[m[K,
+[1.515s]                  from [01m[K/usr/include/c++/11/set:60[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:16[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17[m[K,
+[1.515s]                  from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/include/basic_navigation/move_forward.h:4[m[K,
+[1.515s]                  from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/src/move_forward.cpp:1[m[K:
+[1.515s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MoveForward; _Args = {}; _Tp = MoveForward][m[K’:
+[1.515s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MoveForward; _Args = {}; _Tp = MoveForward; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MoveForward>][m[K’
+[1.515s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = MoveForward; _Alloc = std::allocator<MoveForward>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.515s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MoveForward; _Alloc = std::allocator<MoveForward>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.515s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MoveForward>; _Args = {}; _Tp = MoveForward; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.515s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MoveForward>; _Args = {}; _Tp = MoveForward][m[K’
+[1.515s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MoveForward; _Alloc = std::allocator<MoveForward>; _Args = {}][m[K’
+[1.515s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MoveForward; _Args = {}][m[K’
+[1.515s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/src/move_forward.cpp:16:47:[m[K   required from here
+[1.515s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMoveForward::MoveForward()[m[K’
+[1.515s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.515s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.515s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/src/move_forward.cpp:3:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMoveForward::MoveForward(const string&)[m[K’
+[1.515s]     3 | [01;36m[KMoveForward[m[K::MoveForward(const std::string& name) : BT::SyncActionNode(name, {}), rclcpp::Node("move_forward") {
+[1.515s]       | [01;36m[K^~~~~~~~~~~[m[K
+[1.523s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/src/move_forward.cpp:3:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.687s] gmake[2]: *** [CMakeFiles/move_forward_node.dir/build.make:76: CMakeFiles/move_forward_node.dir/src/move_forward.cpp.o] Error 1
+[1.687s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_forward_node.dir/all] Error 2
+[1.687s] gmake: *** [Makefile:146: all] Error 2
+[1.689s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16

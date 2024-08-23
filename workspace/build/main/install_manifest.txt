@@ -1,0 +1,17 @@
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/test_node
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/package_run_dependencies/main
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/parent_prefix_path/main
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.bash
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.zsh
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/packages/main
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig.cmake
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig-version.cmake
+/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.xml

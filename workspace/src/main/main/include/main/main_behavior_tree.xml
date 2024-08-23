@@ -1,0 +1,41 @@
+<root BTCPP_format="4" main_tree_to_execute="MainTree">
+    
+    <BehaviorTree ID="FindBallSubtree">
+        <Sequence name="root_sequence">
+            <RetryUntilSuccessful num_attempts="100">
+                <Fallback name="find_ball">
+                    <FindYellowBall/>
+                    <ForceFailure>
+                        <Sequence name="rotate_right">
+                            <RotateRight/>
+                            <Wait/>
+                        </Sequence>
+                    </ForceFailure>
+                </Fallback>
+            </RetryUntilSuccessful>
+            <Halt/>
+        </Sequence>
+    </BehaviorTree>
+
+    <BehaviorTree ID="MainTree">
+        <RetryUntilSuccessful num_attempts="100">
+            <Sequence name="center_robot">
+                <SubTree ID="FindBallSubtree"/>
+                <Fallback name="rotate_robot">
+                    <Sequence name="approach_ball">
+                        <YellowBallAtCenter cx="{cx}"/>
+                        <MoveForward/>
+                        <Wait/>
+                    </Sequence>
+                    <ForceFailure>
+                        <Sequence name="rotate_right">
+                            <RotateRight/>
+                            <Wait/>
+                        </Sequence>
+                    </ForceFailure>
+                </Fallback>
+            </Sequence>
+        </RetryUntilSuccessful>
+    </BehaviorTree>
+
+</root>

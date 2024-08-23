@@ -1,0 +1,9 @@
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/uninstall.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/basic_navigation_uninstall.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/test.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/edit_cache.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/rebuild_cache.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/list_install_components.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/install.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/install/local.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles/install/strip.dir

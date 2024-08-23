@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[1.289s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.289s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:24:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.289s]    24 | int main([01;35m[Kint argc[m[K, char * argv[]) {
+[1.289s]       |          [01;35m[K~~~~^~~~[m[K
+[1.289s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:24:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.289s]    24 | int main(int argc, [01;35m[Kchar * argv[][m[K) {
+[1.289s]       |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[1.603s] [100%] [32m[1mLinking CXX executable main_node[0m
+[1.664s] [100%] Built target main_node
+[1.671s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[1.689s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/main
+[1.693s] -- Install configuration: ""
+[1.693s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node
+[1.693s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node" to ""
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.sh
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.dsv
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.sh
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.dsv
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.bash
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.sh
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.zsh
+[1.693s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.dsv
+[1.694s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.dsv
+[1.694s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/packages/main
+[1.694s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig.cmake
+[1.694s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig-version.cmake
+[1.694s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.xml
+[1.694s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/main

@@ -1,0 +1,52 @@
+[0.006s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16
+[0.021s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.089s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.103s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.104s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.107s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.119s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.137s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.138s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.195s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.222s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.229s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.270s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.270s] -- Configured cppcheck include dirs: /home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/include
+[0.270s] -- Configured cppcheck exclude dirs and/or files: 
+[0.270s] -- Added test 'lint_cmake' to check CMake code style
+[0.271s] -- Added test 'uncrustify' to check C / C++ code style
+[0.271s] -- Configured uncrustify additional arguments: 
+[0.271s] -- Added test 'xmllint' to check XML markup files
+[0.272s] -- Configuring done
+[0.276s] -- Generating done
+[0.277s] -- Build files have been written to: /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target move_forward_node[0m
+[0.305s] [ 50%] [32mBuilding CXX object CMakeFiles/move_forward_node.dir/src/move_forward.cpp.o[0m
+[2.527s] [100%] [32m[1mLinking CXX executable move_forward_node[0m
+[2.633s] [100%] Built target move_forward_node
+[2.642s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16
+[2.665s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation
+[2.671s] -- Install configuration: ""
+[2.671s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/lib/basic_navigation/move_forward_node
+[2.671s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/lib/basic_navigation/move_forward_node" to ""
+[2.671s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/
+[2.671s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include//basic_navigation
+[2.671s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include//basic_navigation/move_forward.h
+[2.671s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/ament_index/resource_index/package_run_dependencies/basic_navigation
+[2.671s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/ament_index/resource_index/parent_prefix_path/basic_navigation
+[2.671s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/environment/ament_prefix_path.sh
+[2.672s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/environment/ament_prefix_path.dsv
+[2.672s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/environment/path.sh
+[2.672s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/environment/path.dsv
+[2.672s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/local_setup.bash
+[2.672s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/local_setup.sh
+[2.672s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/local_setup.zsh
+[2.672s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/local_setup.dsv
+[2.672s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.dsv
+[2.672s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/ament_index/resource_index/packages/basic_navigation
+[2.672s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.672s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/cmake/basic_navigationConfig.cmake
+[2.672s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/cmake/basic_navigationConfig-version.cmake
+[2.672s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.xml
+[2.673s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation

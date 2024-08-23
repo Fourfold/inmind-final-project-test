@@ -1,0 +1,37 @@
+[0.006s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.093s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.108s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.109s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.112s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.141s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.142s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.202s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.228s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.235s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.273s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.273s] -- Configured cppcheck include dirs: /home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/include
+[0.273s] -- Configured cppcheck exclude dirs and/or files: 
+[0.273s] -- Added test 'lint_cmake' to check CMake code style
+[0.273s] -- Added test 'uncrustify' to check C / C++ code style
+[0.273s] -- Configured uncrustify additional arguments: 
+[0.274s] -- Added test 'xmllint' to check XML markup files
+[0.274s] -- Configuring done
+[0.275s] [31mCMake Error at CMakeLists.txt:19 (add_library):
+[0.275s]   Cannot find source file:
+[0.275s] 
+[0.275s]     include/move_forward.h
+[0.275s] 
+[0.275s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.275s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.275s] 
+[0.276s] [0m
+[0.276s] [31mCMake Error at CMakeLists.txt:19 (add_library):
+[0.276s]   No SOURCES given to target: basic_navigation
+[0.276s] 
+[0.276s] [0m
+[0.276s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.279s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.281s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16

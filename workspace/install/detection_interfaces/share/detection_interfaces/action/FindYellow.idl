@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from detection_interfaces/action/FindYellow.action
+// generated code does not contain a copyright notice
+
+
+module detection_interfaces {
+  module action {
+    struct FindYellow_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct FindYellow_Result {
+      boolean found;
+
+      int32 cx;
+
+      int32 cy;
+    };
+    struct FindYellow_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

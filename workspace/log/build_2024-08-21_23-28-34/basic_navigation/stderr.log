@@ -1,0 +1,14 @@
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/src/move_forward.cpp:1[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/include/basic_navigation/move_forward.h:15:20:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMoveForward::[m[K’ on member ‘[01m[Ktick[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   15 |     BT::NodeStatus [01;31m[KMoveForward[m[K::tick() override {
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/src/move_forward.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/src/move_forward.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | int main([01;35m[Kint argc[m[K, char * argv[]) {
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/src/move_forward.cpp:3:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | int main(int argc, [01;35m[Kchar * argv[][m[K) {
+      |                    [01;35m[K~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_forward_node.dir/build.make:76: CMakeFiles/move_forward_node.dir/src/move_forward.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_forward_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

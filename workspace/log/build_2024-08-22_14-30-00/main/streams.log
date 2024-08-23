@@ -1,0 +1,31 @@
+[0.006s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[0.043s] [ 50%] Built target test_node
+[0.047s] [ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[1.832s] In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:4[m[K,
+[1.832s]                  from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[1.832s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/image_collector.h:[m[K In constructor ‘[01m[KImageCollector::ImageCollector(const string&)[m[K’:
+[1.832s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/image_collector.h:12:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::SyncActionNode::SyncActionNode()[m[K’
+[1.832s]    12 | eCollector(const std::string& name) : rclcpp::Node("image_collector"[01;31m[K)[m[K {
+[1.832s]       |                                                                     [01;31m[K^[m[K
+[1.832s] 
+[1.832s] In file included from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:28[m[K,
+[1.832s]                  from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward.h:4[m[K,
+[1.832s]                  from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:1[m[K:
+[1.832s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/action_node.h:55:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KBT::SyncActionNode::SyncActionNode(const string&, const BT::NodeConfiguration&)[m[K’
+[1.833s]    55 |   [01;36m[KSyncActionNode[m[K(const std::string& name, const NodeConfiguration& config);
+[1.833s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.833s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/action_node.h:55:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.836s] In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:4[m[K,
+[1.836s]                  from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[1.836s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/image_collector.h:12:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.836s]    12 |     ImageCollector([01;35m[Kconst std::string& name[m[K) : rclcpp::Node("image_collector") {
+[1.836s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.876s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:[m[K In constructor ‘[01m[KMainNode::MainNode()[m[K’:
+[1.876s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:22:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.876s]    22 |         BT::NodeStatus [01;35m[Kstatus[m[K = tree.tickRoot();
+[1.876s]       |                        [01;35m[K^~~~~~[m[K
+[3.535s] gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+[3.535s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main_node.dir/all] Error 2
+[3.536s] gmake: *** [Makefile:146: all] Error 2
+[3.537s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '2': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16

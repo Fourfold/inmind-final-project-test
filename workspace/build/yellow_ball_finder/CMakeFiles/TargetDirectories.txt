@@ -1,0 +1,10 @@
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/uninstall.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/yellow_ball_finder_uninstall.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/yellow_ball_action_server.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/test.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/edit_cache.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/rebuild_cache.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/list_install_components.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/install.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/install/local.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder/CMakeFiles/install/strip.dir

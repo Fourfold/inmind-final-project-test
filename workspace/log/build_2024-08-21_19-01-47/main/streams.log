@@ -1,0 +1,10 @@
+[0.005s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': AMENT_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[0.050s] [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbasic_navigation/move_forward.h: No such file or directory
+[0.050s]     1 | #include [01;31m[K<basic_navigation/move_forward.h>[m[K
+[0.050s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.050s] compilation terminated.
+[0.050s] gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+[0.051s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+[0.051s] gmake: *** [Makefile:146: all] Error 2
+[0.053s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '2': AMENT_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16

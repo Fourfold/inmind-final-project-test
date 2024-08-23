@@ -1,0 +1,11 @@
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/uninstall.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/main_uninstall.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/main_node.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/test_node.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/test.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/edit_cache.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/rebuild_cache.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/list_install_components.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/install.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/install/local.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/install/strip.dir

@@ -1,0 +1,179 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found basic_navigation: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/cmake)
+-- Found yellow_ball_finder: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found detection_interfaces: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fourfold/dev/inmind_final_project_test/workspace/build/main
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[ 50%] Built target test_node
+[ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:53:39:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleMeasureLapTime[m[K’ does not name a type
+   53 |     void goal_response_callback(const [01;31m[KGoalHandleMeasureLapTime[m[K::SharedPtr & goal_handle) {
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:53:75:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   53 | response_callback(const GoalHandleMeasureLapTime::SharedPtr [01;31m[K&[m[K goal_handle) {
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:53:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   53 | _response_callback[34m[K([m[Kconst GoalHandleMeasureLapTime::SharedPtr[01;31m[K [m[K[32m[K&[m[K goal_handle) {
+      |                   [34m[K~[m[K                                         [01;31m[K^[m[K[32m[K~[m[K
+      |                                                             [32m[K)[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:53:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   53 | response_callback(const GoalHandleMeasureLapTime::SharedPtr [01;31m[K&[m[K goal_handle) {
+      |                                                             [01;31m[K^[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:53:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ does not name a type
+   53 | sponse_callback(const GoalHandleMeasureLapTime::SharedPtr & [01;31m[Kgoal_handle[m[K) {
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleMeasureLapTime[m[K’ has not been declared
+   62 |         [01;31m[KGoalHandleMeasureLapTime[m[K::SharedPtr,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:51:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   63 |         const std::shared_ptr<const MeasureLapTime[01;31m[K::[m[KFeedback> feedback
+      |                                                   [01;31m[K^~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |         const std::shared_ptr<const MeasureLapTime::Feedback[01;31m[K>[m[K feedback
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:51:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   63 |         const std::shared_ptr<const MeasureLapTime[01;31m[K::[m[KFeedback> feedback
+      |                                                   [01;31m[K^~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |         const std::shared_ptr<const MeasureLapTime::Feedback[01;31m[K>[m[K feedback
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:51:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   63 |         const std::shared_ptr<const MeasureLapTime[01;31m[K::[m[KFeedback> feedback
+      |                                                   [01;31m[K^~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |         const std::shared_ptr<const MeasureLapTime::Feedback[01;31m[K>[m[K feedback
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:15:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   63 |         const [01;31m[Kstd[m[K::shared_ptr<const MeasureLapTime::Feedback> feedback
+      |               [01;31m[K^~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:51:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   63 |         const std::shared_ptr<const MeasureLapTime[01;31m[K::[m[KFeedback> feedback
+      |                                                   [01;31m[K^~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   63 |         const std::shared_ptr<[01;31m[Kconst[m[K MeasureLapTime::Feedback> feedback
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:63:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   63 |         [01;31m[Kconst[m[K std::shared_ptr<const MeasureLapTime::Feedback> feedback
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:66:32:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleMeasureLapTime[m[K’ does not name a type
+   66 |     void result_callback(const [01;31m[KGoalHandleMeasureLapTime[m[K::WrappedResult & result) {
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:66:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   66 | sult_callback(const GoalHandleMeasureLapTime::WrappedResult [01;31m[K&[m[K result) {
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:66:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   66 | esult_callback[34m[K([m[Kconst GoalHandleMeasureLapTime::WrappedResult[01;31m[K [m[K[32m[K&[m[K result) {
+      |               [34m[K~[m[K                                             [01;31m[K^[m[K[32m[K~[m[K
+      |                                                             [32m[K)[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:66:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   66 | sult_callback(const GoalHandleMeasureLapTime::WrappedResult [01;31m[K&[m[K result) {
+      |                                                             [01;31m[K^[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:66:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ does not name a type
+   66 | sult_callback(const GoalHandleMeasureLapTime::WrappedResult & [01;31m[Kresult[m[K) {
+      |                                                               [01;31m[K^~~~~~[m[K
+
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:83:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ does not name a type
+   83 |     [01;31m[Krclcpp_action[m[K::Client<MeasureLapTime>::SharedPtr action_client;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In constructor ‘[01m[KFindYellowBall::FindYellowBall(const string&)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:18:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass FindYellowBall[m[K’ has no member named ‘[01m[Kaction_client[m[K’
+   18 |         this->[01;31m[Kaction_client[m[K = rclcpp_action::create_client<FindYellow>(
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:18:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ has not been declared
+   18 |         this->action_client = [01;31m[Krclcpp_action[m[K::create_client<FindYellow>(
+      |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:18:60:[m[K [01;31m[Kerror: [m[K‘[01m[KFindYellow[m[K’ was not declared in this scope; did you mean ‘[01m[Kdetection_interfaces::action::FindYellow[m[K’?
+   18 |         this->action_client = rclcpp_action::create_client<[01;31m[KFindYellow[m[K>(
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+      |                                                            [32m[Kdetection_interfaces::action::FindYellow[m[K
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_yellow.hpp:7[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:11[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__struct.hpp:1071:27:[m[K [01;36m[Knote: [m[K‘[01m[Kdetection_interfaces::action::FindYellow[m[K’ declared here
+ 1071 | typedef struct FindYellow [01;36m[KFindYellow[m[K;
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:19:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   19 |             [01;35m[Kthis[m[K,
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:23:25:[m[K [01;31m[Kerror: [m[K‘[01m[KFindYellow[m[K’ is not a class, namespace, or enumeration
+   23 |         auto goal_msg = [01;31m[KFindYellow[m[K::Goal();
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:24:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ has not been declared
+   24 |         auto send_goal_options = [01;31m[Krclcpp_action[m[K::Client<FindYellow>::SendGoalOptions();
+      |                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:24:69:[m[K [01;31m[Kerror: [m[K‘[01m[K::SendGoalOptions[m[K’ has not been declared; did you mean ‘[01m[Ksend_goal_options[m[K’?
+   24 | auto send_goal_options = rclcpp_action::Client<FindYellow>::[01;31m[KSendGoalOptions[m[K();
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[Ksend_goal_options[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:41:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass FindYellowBall[m[K’ has no member named ‘[01m[Kaction_client[m[K’
+   41 |         this->[01;31m[Kaction_client[m[K->async_send_goal(goal_msg, send_goal_options);
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:43:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(FindYellowBall*)[m[K’
+   43 |         [01;31m[Krclcpp::spin_until_future_complete(this)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward.h:5[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+  105 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:43:43:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+   43 |         [01;36m[Krclcpp::spin_until_future_complete(this)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward.h:5[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+  117 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:43:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KFindYellowBall*[m[K’
+   43 |         [01;36m[Krclcpp::spin_until_future_complete(this)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In member function ‘[01m[Kvoid FindYellowBall::feedback_callback(...)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:62:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   62 |         [01;35m[KGoalHandleMeasureLapTime::SharedPtr[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:[m[K In constructor ‘[01m[KMainNode::MainNode()[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:22:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   22 |         BT::NodeStatus [01;35m[Kstatus[m[K = tree.tickRoot();
+      |                        [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

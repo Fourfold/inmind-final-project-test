@@ -1,0 +1,16 @@
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/ament_index/resource_index/package_run_dependencies/yellow_ball_finder
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/ament_index/resource_index/parent_prefix_path/yellow_ball_finder
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/environment/ament_prefix_path.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/environment/ament_prefix_path.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/environment/path.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/environment/path.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/local_setup.bash
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/local_setup.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/local_setup.zsh
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/local_setup.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/package.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/ament_index/resource_index/packages/yellow_ball_finder
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/cmake/yellow_ball_finderConfig.cmake
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/cmake/yellow_ball_finderConfig-version.cmake
+/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/install/yellow_ball_finder/share/yellow_ball_finder/package.xml

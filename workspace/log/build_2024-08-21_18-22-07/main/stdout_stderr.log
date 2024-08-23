@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable main_node[0m
+[100%] Built target main_node
+-- Install configuration: ""
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node
+-- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node" to ""
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.sh
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.dsv
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.sh
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.dsv
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.bash
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.sh
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.zsh
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.dsv
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.dsv
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/packages/main
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig.cmake
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig-version.cmake
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.xml

@@ -1,0 +1,63 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target yellow_sphere_finder[0m
+[  5%] [32mBuilding CXX object CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 11%] Built target ament_cmake_python_copy_yellow_ball_finder
+[ 11%] [32mBuilding CXX object CMakeFiles/yellow_sphere_finder.dir/src/yellow_ball_follower.cpp.o[0m
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/src/yellow_ball_action_server.cpp:1[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_action_server.h:8:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
+    8 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/yellow_ball_action_server.dir/build.make:76: CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/yellow_ball_action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+creating yellow_ball_finder.egg-info
+writing yellow_ball_finder.egg-info/PKG-INFO
+writing dependency_links to yellow_ball_finder.egg-info/dependency_links.txt
+writing top-level names to yellow_ball_finder.egg-info/top_level.txt
+writing manifest file 'yellow_ball_finder.egg-info/SOURCES.txt'
+reading manifest file 'yellow_ball_finder.egg-info/SOURCES.txt'
+writing manifest file 'yellow_ball_finder.egg-info/SOURCES.txt'
+[ 11%] Built target ament_cmake_python_build_yellow_ball_finder_egg
+[ 11%] Built target yellow_ball_finder__cpp
+[ 14%] [32mBuilding C object CMakeFiles/yellow_ball_finder__rosidl_generator_c.dir/rosidl_generator_c/yellow_ball_finder/action/detail/find_yellow__functions.c.o[0m
+[ 17%] [32m[1mLinking C shared library libyellow_ball_finder__rosidl_generator_c.so[0m
+[ 17%] Built target yellow_ball_finder__rosidl_generator_c
+[ 20%] [32m[1mLinking CXX executable yellow_sphere_finder[0m
+[ 20%] Built target yellow_sphere_finder
+gmake: *** [Makefile:146: all] Error 2

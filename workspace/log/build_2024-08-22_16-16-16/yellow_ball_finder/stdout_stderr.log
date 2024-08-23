@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target yellow_ball_action_server[0m
+[ 50%] Built target yellow_sphere_finder
+[ 75%] [32mBuilding CXX object CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o[0m
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/src/yellow_ball_action_server.cpp:1[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_action_server.h:11:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kfind_yellow[m[K’ in namespace ‘[01m[Kdetection_interfaces::action[m[K’ does not name a type; did you mean ‘[01m[KFindYellow[m[K’?
+   11 | using FindYellow = detection_interfaces::action::[01;31m[Kfind_yellow[m[K;
+      |                                                  [01;31m[K^~~~~~~~~~~[m[K
+      |                                                  [32m[KFindYellow[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_action_server.h:12:62:[m[K [01;31m[Kerror: [m[K‘[01m[KFindYellow[m[K’ was not declared in this scope; did you mean ‘[01m[Kdetection_interfaces::action::FindYellow[m[K’?
+   12 | using GoalHandleFindYellow = rclcpp_action::ServerGoalHandle<[01;31m[KFindYellow[m[K>;
+      |                                                              [01;31m[K^~~~~~~~~~[m[K
+      |                                                              [32m[Kdetection_interfaces::action::FindYellow[m[K
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_yellow.hpp:7[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_action_server.h:9[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/src/yellow_ball_action_server.cpp:1[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__struct.hpp:1071:27:[m[K [01;36m[Knote: [m[K‘[01m[Kdetection_interfaces::action::FindYellow[m[K’ declared here
+ 1071 | typedef struct FindYellow [01;36m[KFindYellow[m[K;
+      |                           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/src/yellow_ball_action_server.cpp:1[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_action_server.h:12:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 | using GoalHandleFindYellow = rclcpp_action::ServerGoalHandle<FindYellow[01;31m[K>[m[K;
+      |                                                                        [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/yellow_ball_action_server.dir/build.make:76: CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/yellow_ball_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
