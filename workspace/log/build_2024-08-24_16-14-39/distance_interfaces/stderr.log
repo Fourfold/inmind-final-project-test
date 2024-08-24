@@ -1,0 +1,32 @@
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_generator_c/distance_interfaces/srv/detail/get_front_distance__functions.h:19[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_generator_c/distance_interfaces/srv/detail/get_front_distance__functions.c:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_generator_c/distance_interfaces/srv/detail/get_front_distance__struct.h:41:10:[m[K [01;31m[Kfatal error: [m[Kdistance_interfaces/msg/detail/float32__struct.h: No such file or directory
+   41 | #include [01;31m[K"distance_interfaces/msg/detail/float32__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/distance_interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/distance_interfaces__rosidl_generator_c.dir/rosidl_generator_c/distance_interfaces/srv/detail/get_front_distance__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/distance_interfaces__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_typesupport_cpp/distance_interfaces/srv/get_front_distance__type_support.cpp:7[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_generator_cpp/distance_interfaces/srv/detail/get_front_distance__struct.hpp:127:10:[m[K [01;31m[Kfatal error: [m[Kdistance_interfaces/msg/detail/float32__struct.hpp: No such file or directory
+  127 | #include [01;31m[K"distance_interfaces/msg/detail/float32__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/distance_interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/distance_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/distance_interfaces/srv/get_front_distance__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/distance_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_typesupport_introspection_cpp/distance_interfaces/srv/detail/get_front_distance__type_support.cpp:12[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_generator_cpp/distance_interfaces/srv/detail/get_front_distance__struct.hpp:127:10:[m[K [01;31m[Kfatal error: [m[Kdistance_interfaces/msg/detail/float32__struct.hpp: No such file or directory
+  127 | #include [01;31m[K"distance_interfaces/msg/detail/float32__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/distance_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/distance_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/distance_interfaces/srv/detail/get_front_distance__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/distance_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_typesupport_fastrtps_cpp/distance_interfaces/srv/detail/get_front_distance__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_typesupport_fastrtps_cpp/distance_interfaces/srv/detail/dds_fastrtps/get_front_distance__type_support.cpp:4[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces/rosidl_generator_cpp/distance_interfaces/srv/detail/get_front_distance__struct.hpp:127:10:[m[K [01;31m[Kfatal error: [m[Kdistance_interfaces/msg/detail/float32__struct.hpp: No such file or directory
+  127 | #include [01;31m[K"distance_interfaces/msg/detail/float32__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/distance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/distance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/distance_interfaces/srv/detail/dds_fastrtps/get_front_distance__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/distance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

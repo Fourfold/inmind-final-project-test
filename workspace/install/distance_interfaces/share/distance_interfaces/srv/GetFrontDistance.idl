@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from distance_interfaces/srv/GetFrontDistance.srv
+// generated code does not contain a copyright notice
+
+
+module distance_interfaces {
+  module srv {
+    struct GetFrontDistance_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetFrontDistance_Response {
+      float front_distance;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/src/distance_sensor_server.cpp:1[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/include/distance_check/distance_sensor_server.h:[m[K In member function ‘[01m[Kvoid DistanceSensorServer::get_front_distance_callback(std::shared_ptr<distance_interfaces::srv::GetFrontDistance_Request_<std::allocator<void> > >, std::shared_ptr<distance_interfaces::srv::GetFrontDistance_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/include/distance_check/distance_sensor_server.h:23:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   23 | [01;35m[Khared_ptr<distance_interfaces::srv::GetFrontDistance::Request> request[m[K,
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+

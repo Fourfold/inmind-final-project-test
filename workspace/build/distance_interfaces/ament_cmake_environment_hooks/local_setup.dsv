@@ -1,0 +1,4 @@
+source;share/distance_interfaces/environment/ament_prefix_path.sh
+source;share/distance_interfaces/environment/library_path.sh
+source;share/distance_interfaces/environment/path.sh
+source;share/distance_interfaces/environment/pythonpath.sh

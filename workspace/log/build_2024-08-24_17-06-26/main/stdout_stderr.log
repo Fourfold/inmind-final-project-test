@@ -1,0 +1,68 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found basic_navigation: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/cmake)
+-- Found yellow_ball_finder: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found detection_interfaces: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/cmake)
+-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found distance_interfaces: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/cmake)
+-- Found distance_check: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fourfold/dev/inmind_final_project_test/workspace/build/main
+[35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[ 50%] Built target test_node
+[ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:6[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In member function ‘[01m[Kvoid FindYellowBall::goal_response_callback(const SharedPtr&)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:65:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | l_response_callback([01;35m[Kconst GoalHandleFindYellow::SharedPtr & goal_handle[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In member function ‘[01m[Kvoid FindYellowBall::feedback_callback(rclcpp_action::ClientGoalHandle<detection_interfaces::action::FindYellow>::SharedPtr, std::shared_ptr<const detection_interfaces::action::FindYellow_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:75:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   75 |         [01;35m[Kconst std::shared_ptr<const FindYellow::Feedback> feedback[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:[m[K In constructor ‘[01m[KMainNode::MainNode()[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:37:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   37 |         BT::NodeStatus [01;35m[Kstatus[m[K = tree.tickRoot();
+      |                        [01;35m[K^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable main_node[0m
+[100%] Built target main_node
+-- Install configuration: ""
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node
+-- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node" to ""
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/test_node
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.sh
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.sh
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.bash
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.zsh
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.dsv
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/packages/main
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig-version.cmake
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.xml

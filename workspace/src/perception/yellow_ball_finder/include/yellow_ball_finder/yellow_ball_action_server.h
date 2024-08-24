@@ -45,6 +45,7 @@ YellowBallActionServer::YellowBallActionServer() : Node("yellow_ball_action_serv
         std::bind(&YellowBallActionServer::handle_cancel, this, _1),
         std::bind(&YellowBallActionServer::handle_accepted, this, _1)
     );
+    cv_ptr = nullptr;
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "FindYellow server started. Ready for requests.");
 }
 
@@ -67,6 +68,16 @@ void YellowBallActionServer::handle_accepted(const std::shared_ptr<GoalHandleFin
 }
 
 void YellowBallActionServer::execute(const std::shared_ptr<GoalHandleFindYellow> goal_handle) {
+    auto result = std::make_shared<FindYellow::Result>();
+    if (cv_ptr == nullptr) {
+        result->found = false;
+        result->frame_width = 0;
+        result->cx = -1;
+        result->cy = -1;
+        goal_handle->succeed(result);
+        return;
+    }
+
     int cx, cy;
     bool sphere_detected = false;
     int frame_width;
@@ -119,7 +130,6 @@ void YellowBallActionServer::execute(const std::shared_ptr<GoalHandleFindYellow>
         }
     }
 
-    auto result = std::make_shared<FindYellow::Result>();
     if (sphere_detected) {
         result->found = true;
         result->frame_width = frame_width;

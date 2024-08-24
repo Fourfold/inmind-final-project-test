@@ -7,6 +7,7 @@
 #include <yellow_ball_finder/yellow_ball_at_center.h>
 #include <yellow_ball_finder/yellow_ball_on_right.h>
 #include <yellow_ball_finder/yellow_ball_on_left.h>
+#include <distance_check/gripper_object_at_correct_distance.h>
 #include <main/wait.h>
 #include <rclcpp/rclcpp.hpp>
 #include <behaviortree_cpp_v3/behavior_tree.h>
@@ -25,6 +26,7 @@ public:
         factory_.registerNodeType<YellowBallOnRight>("YellowBallOnRight");
         factory_.registerNodeType<YellowBallOnLeft>("YellowBallOnLeft");
         factory_.registerNodeType<Halt>("Halt");
+        factory_.registerNodeType<GripperObjectAtCorrectDistance>("GripperObjectAtCorrectDistance");
         factory_.registerNodeType<Wait>("Wait");
         auto blackboard = BT::Blackboard::create({});
         blackboard->set<int>("FrameWidth", 0);
@@ -41,6 +43,7 @@ private:
 int main(int argc, char * argv[]) {
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<MainNode>());
+    rclcpp::shutdown();
 
     return 0;
 }

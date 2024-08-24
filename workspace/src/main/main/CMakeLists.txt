@@ -20,11 +20,26 @@ find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(detection_interfaces REQUIRED)
 find_package(rclcpp_action REQUIRED)
+find_package(distance_interfaces REQUIRED)
+find_package(distance_check REQUIRED)
 
 include_directories(include)
 
 add_executable(main_node src/main.cpp)
-ament_target_dependencies(main_node behaviortree_cpp_v3 rclcpp basic_navigation yellow_ball_finder sensor_msgs geometry_msgs cv_bridge OpenCV detection_interfaces rclcpp_action)
+ament_target_dependencies(main_node
+  behaviortree_cpp_v3
+  rclcpp
+  basic_navigation
+  yellow_ball_finder
+  sensor_msgs
+  geometry_msgs
+  cv_bridge
+  OpenCV
+  detection_interfaces
+  rclcpp_action
+  distance_interfaces
+  distance_check
+)
 
 add_executable(test_node src/test.cpp)
 ament_target_dependencies(test_node rclcpp geometry_msgs)

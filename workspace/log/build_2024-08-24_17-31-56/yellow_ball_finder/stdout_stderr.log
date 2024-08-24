@@ -1,0 +1,12 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o[0m
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/src/yellow_ball_action_server.cpp:1[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_action_server.h:[m[K In member function ‘[01m[Kvoid YellowBallActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<detection_interfaces::action::FindYellow> >)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_action_server.h:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+   71 |         [01;31m[Kresult[m[K->found = false;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_action_server.h:72:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_width[m[K’ was not declared in this scope
+   72 |         result->frame_width = [01;31m[Kframe_width[m[K;
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/yellow_ball_action_server.dir/build.make:76: CMakeFiles/yellow_ball_action_server.dir/src/yellow_ball_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yellow_ball_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

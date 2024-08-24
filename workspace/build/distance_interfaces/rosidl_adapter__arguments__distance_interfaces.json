@@ -1,0 +1,6 @@
+{
+  "package_name": "distance_interfaces",
+  "non_idl_tuples": [
+    "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces:srv/GetFrontDistance.srv"
+  ]
+}

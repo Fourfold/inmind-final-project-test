@@ -1,0 +1,39 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found basic_navigation: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/cmake)
+-- Found yellow_ball_finder: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found detection_interfaces: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/cmake)
+-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found distance_interfaces: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fourfold/dev/inmind_final_project_test/workspace/build/main
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[ 50%] Built target test_node
+[ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kdistance_check/gripper_object_at_correct_distance.h: No such file or directory
+   10 | #include [01;31m[K<distance_check/gripper_object_at_correct_distance.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

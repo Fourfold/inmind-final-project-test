@@ -804,11 +804,22 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include/distance_check/gripper_object_at_correct_distance.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/get_front_distance.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__struct.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__builder.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__traits.hpp \
   /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include/main/wait.h \
   /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h
 
 
 /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__traits.hpp:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__builder.hpp:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include/distance_check/gripper_object_at_correct_distance.h:
 
 /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h:
 
@@ -1325,6 +1336,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/11/bits/stream_iterator.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/get_front_distance.hpp:
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
 
@@ -2245,6 +2258,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
 

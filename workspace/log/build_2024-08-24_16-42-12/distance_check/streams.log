@@ -1,0 +1,50 @@
+[0.005s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check': AMENT_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check -- -j16 -l16
+[0.020s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.130s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.133s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.183s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.185s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.253s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.275s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.307s] -- Looking for pthread.h
+[0.352s] -- Looking for pthread.h - found
+[0.352s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.410s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.411s] -- Found Threads: TRUE  
+[0.443s] -- Found distance_interfaces: 0.0.0 (/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/cmake)
+[0.448s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.466s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.504s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.504s] -- Configured cppcheck include dirs: 
+[0.504s] -- Configured cppcheck exclude dirs and/or files: 
+[0.504s] -- Added test 'lint_cmake' to check CMake code style
+[0.505s] -- Added test 'uncrustify' to check C / C++ code style
+[0.505s] -- Configured uncrustify additional arguments: 
+[0.505s] -- Added test 'xmllint' to check XML markup files
+[0.505s] -- Configuring done
+[0.507s] -- Generating done
+[0.508s] -- Build files have been written to: /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check
+[0.525s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check' returned '0': AMENT_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check -- -j16 -l16
+[0.541s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check': AMENT_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check
+[0.546s] -- Install configuration: ""
+[0.546s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/ament_index/resource_index/package_run_dependencies/distance_check
+[0.546s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/ament_index/resource_index/parent_prefix_path/distance_check
+[0.547s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/environment/ament_prefix_path.sh
+[0.547s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/environment/ament_prefix_path.dsv
+[0.547s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/environment/path.sh
+[0.547s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/environment/path.dsv
+[0.547s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/local_setup.bash
+[0.547s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/local_setup.sh
+[0.547s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/local_setup.zsh
+[0.547s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/local_setup.dsv
+[0.547s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.dsv
+[0.547s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/ament_index/resource_index/packages/distance_check
+[0.547s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/cmake/distance_checkConfig.cmake
+[0.547s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/cmake/distance_checkConfig-version.cmake
+[0.547s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.xml
+[0.548s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check' returned '0': AMENT_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check
