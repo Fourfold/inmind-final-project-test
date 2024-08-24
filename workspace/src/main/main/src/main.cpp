@@ -7,6 +7,10 @@
 #include <yellow_ball_finder/yellow_ball_at_center.h>
 #include <yellow_ball_finder/yellow_ball_on_right.h>
 #include <yellow_ball_finder/yellow_ball_on_left.h>
+#include <object_finder/find_object.h>
+#include <object_finder/object_at_center.h>
+#include <object_finder/object_on_right.h>
+#include <object_finder/object_on_left.h>
 #include <distance_check/gripper_object_at_correct_distance.h>
 #include <main/wait.h>
 #include <rclcpp/rclcpp.hpp>
@@ -18,13 +22,17 @@ public:
     MainNode() : rclcpp::Node("main_node") {
         // Register nodes
         factory_.registerNodeType<FindYellowBall>("FindYellowBall");
+        factory_.registerNodeType<YellowBallAtCenter>("YellowBallAtCenter");
+        factory_.registerNodeType<YellowBallOnRight>("YellowBallOnRight");
+        factory_.registerNodeType<YellowBallOnLeft>("YellowBallOnLeft");
+        factory_.registerNodeType<FindYellowBall>("FindObject");
+        factory_.registerNodeType<YellowBallAtCenter>("ObjectAtCenter");
+        factory_.registerNodeType<YellowBallOnRight>("ObjectOnRight");
+        factory_.registerNodeType<YellowBallOnLeft>("ObjectOnLeft");
         factory_.registerNodeType<RotateRight>("RotateRight");
         factory_.registerNodeType<MoveForward>("MoveForward");
         factory_.registerNodeType<MoveForwardRight>("MoveForwardRight");
         factory_.registerNodeType<MoveForwardLeft>("MoveForwardLeft");
-        factory_.registerNodeType<YellowBallAtCenter>("YellowBallAtCenter");
-        factory_.registerNodeType<YellowBallOnRight>("YellowBallOnRight");
-        factory_.registerNodeType<YellowBallOnLeft>("YellowBallOnLeft");
         factory_.registerNodeType<Halt>("Halt");
         factory_.registerNodeType<GripperObjectAtCorrectDistance>("GripperObjectAtCorrectDistance");
         factory_.registerNodeType<Wait>("Wait");

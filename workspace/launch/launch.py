@@ -12,6 +12,10 @@ def generate_launch_description():
             executable='yellow_ball_action_server',
         ),
         Node(
+            package='yolov8_webcam',
+            executable='yolov8_node',
+        ),
+        Node(
            package='distance_check',
            executable='distance_sensor_server',
         ),

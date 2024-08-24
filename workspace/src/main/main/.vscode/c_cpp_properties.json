@@ -11,6 +11,7 @@
         "~/dev/inmind_final_project_test/workspace/src/main/main/include/**",
         "~/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/include/**",
         "~/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/**",
+        "~/dev/inmind_final_project_test/workspace/src/perception/object_finder/include/**",
         "~/dev/inmind_final_project_test/workspace/src/perception/distance_check/include/**",
         "~/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/**",
         "~/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/**",

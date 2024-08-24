@@ -23,7 +23,7 @@
 
                 <RetryUntilSuccessful num_attempts="100000">
                     <Fallback name="find_ball">
-                        <FindYellowBall frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
+                        <FindObject frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
                         <ForceFailure>
                             <Sequence name="rotate_right">
                                 <RotateRight/>
@@ -35,15 +35,15 @@
                 
                 <Fallback name="rotate_robot">
                     <Sequence name="approach_ball">
-                        <YellowBallAtCenter frame_width="{FrameWidth}" cx="{CX}"/>
+                        <ObjectAtCenter frame_width="{FrameWidth}" cx="{CX}"/>
                         <MoveForward/>
                     </Sequence>
                     <Sequence name="rotate_right">
-                        <YellowBallOnRight frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
+                        <ObjectOnRight frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
                         <MoveForwardRight error_x="{ErrorX}"/>
                     </Sequence>
                     <Sequence name="rotate_left">
-                        <YellowBallOnLeft frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
+                        <ObjectOnLeft frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
                         <MoveForwardLeft  error_x="{ErrorX}"/>
                     </Sequence>
                     <ForceFailure>

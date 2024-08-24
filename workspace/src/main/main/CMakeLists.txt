@@ -14,6 +14,7 @@ find_package(behaviortree_cpp_v3 REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(basic_navigation REQUIRED)
 find_package(yellow_ball_finder REQUIRED)
+find_package(object_finder REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
@@ -31,6 +32,7 @@ ament_target_dependencies(main_node
   rclcpp
   basic_navigation
   yellow_ball_finder
+  object_finder
   sensor_msgs
   geometry_msgs
   cv_bridge
