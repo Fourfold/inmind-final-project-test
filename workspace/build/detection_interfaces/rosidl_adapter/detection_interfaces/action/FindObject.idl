@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from detection_interfaces/action/FindObject.action
+// generated code does not contain a copyright notice
+
+
+module detection_interfaces {
+  module action {
+    struct FindObject_Goal {
+      string object_type;
+    };
+    struct FindObject_Result {
+      boolean found;
+
+      int32 frame_width;
+
+      int32 cx;
+
+      int32 cy;
+    };
+    struct FindObject_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

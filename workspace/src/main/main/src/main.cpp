@@ -34,7 +34,8 @@ public:
         blackboard->set<int>("CY", 0);
         blackboard->set<int>("ErrorX", 0);
         auto tree = factory_.createTreeFromFile("./src/main/main/include/main/main_behavior_tree.xml", blackboard);
-        BT::NodeStatus status = tree.tickRoot();
+        BT::NodeStatus status = tree.tickRootWhileRunning();
+        rclcpp::shutdown();
     }
 private:
     BT::BehaviorTreeFactory factory_;
@@ -43,7 +44,6 @@ private:
 int main(int argc, char * argv[]) {
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<MainNode>());
-    rclcpp::shutdown();
 
     return 0;
 }

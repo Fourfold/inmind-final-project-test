@@ -70,6 +70,10 @@ CMakeFiles/detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/
 CMakeFiles/detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__builder.hpp
 CMakeFiles/detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__struct.hpp
 CMakeFiles/detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__traits.hpp
+CMakeFiles/detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/find_object.hpp
+CMakeFiles/detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_object__builder.hpp
+CMakeFiles/detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_object__struct.hpp
+CMakeFiles/detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_object__traits.hpp
 
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humbl
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: rosidl_adapter/detection_interfaces/action/FindYellow.idl
+rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: rosidl_adapter/detection_interfaces/action/FindObject.idl
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -106,10 +111,26 @@ rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__struct.hpp:
 rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__traits.hpp: rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__traits.hpp
 
+rosidl_generator_cpp/detection_interfaces/action/find_object.hpp: rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/detection_interfaces/action/find_object.hpp
+
+rosidl_generator_cpp/detection_interfaces/action/detail/find_object__builder.hpp: rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/detection_interfaces/action/detail/find_object__builder.hpp
+
+rosidl_generator_cpp/detection_interfaces/action/detail/find_object__struct.hpp: rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/detection_interfaces/action/detail/find_object__struct.hpp
+
+rosidl_generator_cpp/detection_interfaces/action/detail/find_object__traits.hpp: rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/detection_interfaces/action/detail/find_object__traits.hpp
+
 detection_interfaces__cpp: CMakeFiles/detection_interfaces__cpp
+detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_object__builder.hpp
+detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_object__struct.hpp
+detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_object__traits.hpp
 detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__builder.hpp
 detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__struct.hpp
 detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__traits.hpp
+detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/find_object.hpp
 detection_interfaces__cpp: rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp
 detection_interfaces__cpp: CMakeFiles/detection_interfaces__cpp.dir/build.make
 .PHONY : detection_interfaces__cpp

@@ -247,8 +247,19 @@ CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl
   rosidl_generator_c/detection_interfaces/action/detail/find_yellow__struct.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/detection_interfaces/action/detail/find_yellow__functions.h
+  rosidl_generator_c/detection_interfaces/action/detail/find_yellow__functions.h \
+  rosidl_generator_c/detection_interfaces/action/detail/find_object__type_support.h \
+  rosidl_generator_c/detection_interfaces/action/detail/find_object__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  rosidl_generator_c/detection_interfaces/action/detail/find_object__functions.h
 
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+rosidl_generator_c/detection_interfaces/action/detail/find_object__struct.h:
+
+rosidl_generator_c/detection_interfaces/action/detail/find_object__type_support.h:
 
 rosidl_generator_c/detection_interfaces/action/detail/find_yellow__functions.h:
 
@@ -389,6 +400,8 @@ rosidl_generator_c/detection_interfaces/msg/rosidl_generator_c__visibility_contr
 /usr/include/python3.10/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -717,6 +730,8 @@ rosidl_generator_py/detection_interfaces/_detection_interfaces_s.ep.rosidl_types
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
 /usr/include/linux/stat.h:
+
+rosidl_generator_c/detection_interfaces/action/detail/find_object__functions.h:
 
 /usr/include/python3.10/longobject.h:
 

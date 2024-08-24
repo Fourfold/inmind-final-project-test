@@ -4,3 +4,5 @@ custom_interface_yolo.egg-info/PKG-INFO
 custom_interface_yolo.egg-info/SOURCES.txt
 custom_interface_yolo.egg-info/dependency_links.txt
 custom_interface_yolo.egg-info/top_level.txt
+custom_interface_yolo/action/__init__.py
+custom_interface_yolo/action/_camera_stream.py

@@ -5,4 +5,5 @@ detection_interfaces.egg-info/SOURCES.txt
 detection_interfaces.egg-info/dependency_links.txt
 detection_interfaces.egg-info/top_level.txt
 detection_interfaces/action/__init__.py
+detection_interfaces/action/_find_object.py
 detection_interfaces/action/_find_yellow.py

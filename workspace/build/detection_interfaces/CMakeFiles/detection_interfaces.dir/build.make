@@ -67,6 +67,7 @@ include CMakeFiles/detection_interfaces.dir/compiler_depend.make
 include CMakeFiles/detection_interfaces.dir/progress.make
 
 CMakeFiles/detection_interfaces: /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces/action/FindYellow.action
+CMakeFiles/detection_interfaces: /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces/action/FindObject.action
 CMakeFiles/detection_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/detection_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/detection_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl

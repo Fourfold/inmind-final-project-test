@@ -1,6 +1,7 @@
 {
   "package_name": "detection_interfaces",
   "non_idl_tuples": [
-    "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces:action/FindYellow.action"
+    "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces:action/FindYellow.action",
+    "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces:action/FindObject.action"
   ]
 }

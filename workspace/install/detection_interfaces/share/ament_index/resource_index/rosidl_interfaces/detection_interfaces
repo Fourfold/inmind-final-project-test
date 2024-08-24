@@ -1,2 +1,4 @@
+action/FindObject.action
+action/FindObject.idl
 action/FindYellow.action
 action/FindYellow.idl

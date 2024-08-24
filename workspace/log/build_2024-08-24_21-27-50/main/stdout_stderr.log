@@ -1,0 +1,37 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[ 75%] Built target test_node
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:6[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In member function ‘[01m[Kvoid FindYellowBall::goal_response_callback(const SharedPtr&)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:65:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | l_response_callback([01;35m[Kconst GoalHandleFindYellow::SharedPtr & goal_handle[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:[m[K In member function ‘[01m[Kvoid FindYellowBall::feedback_callback(rclcpp_action::ClientGoalHandle<detection_interfaces::action::FindYellow>::SharedPtr, std::shared_ptr<const detection_interfaces::action::FindYellow_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:75:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   75 |         [01;35m[Kconst std::shared_ptr<const FindYellow::Feedback> feedback[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:[m[K In constructor ‘[01m[KMainNode::MainNode()[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:37:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   37 |         BT::NodeStatus [01;35m[Kstatus[m[K = tree.tickRootWhileRunning();
+      |                        [01;35m[K^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable main_node[0m
+[100%] Built target main_node
+-- Install configuration: ""
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node
+-- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/main_node" to ""
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/main/test_node
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/environment/path.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.bash
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.zsh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/local_setup.dsv
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/ament_index/resource_index/packages/main
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/cmake/mainConfig-version.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.xml

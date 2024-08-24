@@ -1,0 +1,15 @@
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/ament_index/resource_index/package_run_dependencies/object_finder
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/ament_index/resource_index/parent_prefix_path/object_finder
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/environment/ament_prefix_path.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/environment/ament_prefix_path.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/environment/path.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/environment/path.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/local_setup.bash
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/local_setup.sh
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/local_setup.zsh
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/local_setup.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/package.dsv
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/ament_index/resource_index/packages/object_finder
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/cmake/object_finderConfig.cmake
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/cmake/object_finderConfig-version.cmake
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/package.xml

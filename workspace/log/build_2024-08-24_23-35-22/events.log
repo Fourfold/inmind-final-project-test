@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (-) JobUnselected: {'identifier': 'basic_navigation'}
+[0.000451] (-) JobUnselected: {'identifier': 'custom_interface_yolo'}
+[0.000476] (-) JobUnselected: {'identifier': 'detection_interfaces'}
+[0.000492] (-) JobUnselected: {'identifier': 'distance_check'}
+[0.000507] (-) JobUnselected: {'identifier': 'distance_interfaces'}
+[0.000520] (-) JobUnselected: {'identifier': 'main'}
+[0.000534] (-) JobUnselected: {'identifier': 'object_finder'}
+[0.000548] (-) JobUnselected: {'identifier': 'yellow_ball_finder'}
+[0.000561] (-) JobUnselected: {'identifier': 'yolov8_webcam'}
+[0.000576] (-) EventReactorShutdown: {}

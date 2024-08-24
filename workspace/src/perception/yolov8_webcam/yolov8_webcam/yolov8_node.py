@@ -1,104 +1,92 @@
 import rclpy
 from rclpy.node import Node
-from custom_interface_yolo.action import CameraStream
+from detection_interfaces.action import FindObject
 from rclpy.action import ActionServer
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 from ultralytics import YOLO
 import cv2
-import os
-import threading
-from std_msgs.msg import Float32
 
 class YOLOv8WebcamNode(Node):
     def __init__(self):
         super().__init__('yolov8_webcam_node')
 
         # Initialize the YOLO model
-        model_path = os.path.abspath('best.pt')
+        model_path = 'best.pt'  # Ensure this path is correct
         self.model = YOLO(model_path)
-
-        # Initialize webcam
-        self.cap = cv2.VideoCapture(0)  # 0 is usually the default webcam
-        if not self.cap.isOpened():
-            self.get_logger().error("Failed to open webcam")
 
         # Initialize the CvBridge
         self.bridge = CvBridge()
 
-        # Initialize variables to hold the most recent results
-        self.latest_result = CameraStream.Result()
-        self.lock = threading.Lock()
-
         # Create an action server
         self._action_server = ActionServer(
             self,
-            CameraStream,
-            'camera_stream',
+            FindObject,
+            'find_object_server',
             execute_callback=self.execute_callback
         )
 
-        # Start a thread to continuously process frames
-        self.process_thread = threading.Thread(target=self.process_frames)
-        self.process_thread.start()
+        # Create a subscription to the TurtleBot3 camera topic
+        self.subscription = self.create_subscription(
+            Image,
+            '/camera/image_raw',  # Replace with the correct topic if different
+            self.image_callback,
+            10
+        )
 
-        self.get_logger().info("YOLOv8 Webcam Node with Action Server has started.")
+        self.get_logger().info("YOLOv8 Camera Node with Action Server has started.")
 
-    def process_frames(self):
-        while rclpy.ok():
-            ret, frame = self.cap.read()
-            if not ret:
-                self.get_logger().error("Failed to capture image")
-                continue
-
-            # Run YOLO model on the frame
-            results = self.model(frame)
-
-            with self.lock:
-                if results[0].boxes:
-                    # Extract the bounding box center
-                    box = results[0].boxes[0]
-                    bbox = box.xyxy[0]  # [x1, y1, x2, y2]
-                    x_center = (bbox[0] + bbox[2]) / 2
-                    y_center = (bbox[1] + bbox[3]) / 2
-
-                    # Update result with bounding box center
-                    self.latest_result.success = True
-                    self.latest_result.x = float(x_center)  # Ensure x is float32
-                    self.latest_result.y = float(y_center)  # Ensure y is float32
-                else:
-                    self.latest_result.success = False
-                    self.latest_result.x = 0.0
-                    self.latest_result.y = 0.0
-
-            # Annotate the frame with detection results
-            annotated_frame = results[0].plot()
-
-            # Display the annotated frame
-            cv2.imshow('YOLOv8 Webcam Stream', annotated_frame)
-            if cv2.waitKey(1) & 0xFF == ord('q'):
-                break
+    def image_callback(self, msg):
+        # Convert ROS Image message to OpenCV image
+        self.frame = self.bridge.imgmsg_to_cv2(msg, "bgr8")
 
     async def execute_callback(self, goal_handle):
         self.get_logger().info('Executing action')
 
-        # Return the latest detection results
-        with self.lock:
-            result = self.latest_result
+        input = goal_handle.request.object_type
 
-        goal_handle.set_succeeded(result)
+        result = FindObject.Result()
+        try:
+
+            # Run YOLO model on the frame
+            results = self.model(self.frame)
+
+            if results[0].boxes:
+                # Extract the bounding box center
+                box = results[0].boxes[0]
+                bbox = box.xyxy[0]  # [x1, y1, x2, y2]
+                x_center = (bbox[0] + bbox[2]) / 2
+                y_center = (bbox[1] + bbox[3]) / 2
+
+                # Update result with bounding box center
+                result.success = True
+                result.x = float(x_center)  # Ensure x is float32
+                result.y = float(y_center)  # Ensure y is float32
+                self.get_logger().info("Can Found")
+            else:
+                result.success = False
+                result.x = 0.0
+                result.y = 0.0
+
+            # Annotate the frame with detection results
+            annotated_frame = results[0].plot()
+
+            # Optionally display the annotated frame
+            cv2.imshow('YOLOv8 Camera Stream', annotated_frame)
+            cv2.waitKey(1)  # Display frame until next frame arrives
+
+        except Exception as e:
+            self.get_logger().error(f"Failed to process image: {e}")
+
+        goal_handle.succeed(result)
 
     def destroy_node(self):
-        self.cap.release()
         cv2.destroyAllWindows()
-        self.process_thread.join()
         super().destroy_node()
-
 
 def main(args=None):
     rclpy.init(args=args)
     node = YOLOv8WebcamNode()
-
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
