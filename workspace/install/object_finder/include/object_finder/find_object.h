@@ -48,6 +48,7 @@ public:
 
     BT::NodeStatus tick() override {
         auto goal_msg = FindObject::Goal();
+        goal_msg.object_type = "Can";
         auto result = action_client->async_send_goal(goal_msg, send_goal_options);
         rclcpp::spin_until_future_complete(this->get_node_base_interface(), result);
 

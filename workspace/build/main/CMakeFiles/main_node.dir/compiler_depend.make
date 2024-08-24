@@ -804,6 +804,14 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/find_object.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_object.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__builder.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__traits.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_at_center.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_on_right.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_on_left.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include/distance_check/gripper_object_at_correct_distance.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/get_front_distance.hpp \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__struct.hpp \
@@ -820,6 +828,10 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__builder.hpp:
 
 /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include/distance_check/gripper_object_at_correct_distance.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_on_right.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_at_center.h:
 
 /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h:
 
@@ -919,6 +931,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
+/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_object.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp:
@@ -952,6 +966,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_on_left.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
 
@@ -1052,6 +1068,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/find_object.h:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
@@ -1213,6 +1231,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /opt/ros/humble/include/behaviortree_cpp_v3/utils/signal.h:
 
+/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__builder.hpp:
+
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
@@ -1352,6 +1372,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /usr/include/c++/11/cctype:
 
 /usr/include/c++/11/iomanip:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
@@ -2180,6 +2202,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /opt/ros/humble/include/rcl/rcl/visibility_control.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__traits.hpp:
 
 /usr/include/c++/11/codecvt:
 
