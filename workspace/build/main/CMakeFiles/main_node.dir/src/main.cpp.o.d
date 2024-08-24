@@ -732,6 +732,14 @@ CMakeFiles/main_node.dir/src/main.cpp.o: \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h \
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/find_object.h \
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_object.hpp \
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp \
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__builder.hpp \
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__traits.hpp \
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_at_center.h \
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_on_right.h \
+ /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_on_left.h \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include/distance_check/gripper_object_at_correct_distance.h \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/get_front_distance.hpp \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__struct.hpp \

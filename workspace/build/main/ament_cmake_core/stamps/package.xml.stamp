@@ -13,6 +13,7 @@
   <depend>rclcpp</depend>
   <depend>basic_navigation</depend>
   <depend>yellow_ball_finder</depend>
+  <depend>object_finder</depend>
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>cv_bridge</depend>
