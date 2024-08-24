@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interface_yolo",
+  "non_idl_tuples": [
+    "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo:action/CameraStream.action"
+  ]
+}

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interface_yolo/action/CameraStream.action
+// generated code does not contain a copyright notice
+
+
+module custom_interface_yolo {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal definition")
+    struct CameraStream_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "No specific goal message needed")
+    struct CameraStream_Result {
+      @verbatim (language="comment", text=
+        "Result definition")
+      boolean success;
+
+      float x;
+
+      float y;
+    };
+    @verbatim (language="comment", text=
+      "No feedback needed")
+    struct CameraStream_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

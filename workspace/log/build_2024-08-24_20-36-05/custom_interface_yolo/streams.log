@@ -1,0 +1,229 @@
+[0.013s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo -DCMAKE_INSTALL_PREFIX=/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.426s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.482s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.702s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.999s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.000s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.017s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.017s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.017s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.017s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.030s] -- Found PythonExtra: .so  
+[1.059s] -- Added test 'lint_cmake' to check CMake code style
+[1.060s] -- Added test 'xmllint' to check XML markup files
+[1.063s] -- Configuring done
+[1.078s] -- Generating done
+[1.079s] -- Build files have been written to: /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo
+[1.085s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo -DCMAKE_INSTALL_PREFIX=/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo
+[1.085s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo -- -j16 -l16
+[1.111s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.117s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.127s] [  6%] Built target ament_cmake_python_copy_custom_interface_yolo
+[1.264s] running egg_info
+[1.265s] creating custom_interface_yolo.egg-info
+[1.265s] writing custom_interface_yolo.egg-info/PKG-INFO
+[1.265s] writing dependency_links to custom_interface_yolo.egg-info/dependency_links.txt
+[1.265s] writing top-level names to custom_interface_yolo.egg-info/top_level.txt
+[1.265s] writing manifest file 'custom_interface_yolo.egg-info/SOURCES.txt'
+[1.266s] reading manifest file 'custom_interface_yolo.egg-info/SOURCES.txt'
+[1.267s] writing manifest file 'custom_interface_yolo.egg-info/SOURCES.txt'
+[1.284s] [  6%] Built target ament_cmake_python_build_custom_interface_yolo_egg
+[1.373s] [  6%] Built target custom_interface_yolo__cpp
+[1.379s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.380s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.381s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.384s] [ 19%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_yolo/action/detail/camera_stream__functions.c.o[0m
+[1.468s] [ 22%] [32m[1mLinking C shared library libcustom_interface_yolo__rosidl_generator_c.so[0m
+[1.493s] [ 22%] Built target custom_interface_yolo__rosidl_generator_c
+[1.499s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.500s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.500s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.571s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_yolo/action/camera_stream__type_support.cpp.o[0m
+[1.615s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_yolo/action/detail/camera_stream__type_support.cpp.o[0m
+[1.640s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_yolo/action/detail/dds_fastrtps/camera_stream__type_support.cpp.o[0m
+[1.718s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_yolo/action/camera_stream__type_support.cpp.o[0m
+[1.751s] [ 48%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_c.so[0m
+[1.756s] [ 51%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_yolo/action/detail/camera_stream__type_support.c.o[0m
+[1.759s] [ 54%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_yolo/action/detail/camera_stream__type_support_c.cpp.o[0m
+[1.778s] [ 54%] Built target custom_interface_yolo__rosidl_typesupport_c
+[1.785s] [ 58%] [32m[1mLinking C shared library libcustom_interface_yolo__rosidl_typesupport_introspection_c.so[0m
+[1.808s] [ 58%] Built target custom_interface_yolo__rosidl_typesupport_introspection_c
+[1.848s] [ 61%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_cpp.so[0m
+[1.875s] [ 61%] Built target custom_interface_yolo__rosidl_typesupport_cpp
+[1.961s] [ 64%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.972s] [ 70%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_introspection_cpp.so[0m
+[1.972s] [ 70%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_fastrtps_c.so[0m
+[2.009s] [ 70%] Built target custom_interface_yolo__rosidl_typesupport_fastrtps_cpp
+[2.019s] [ 70%] Built target custom_interface_yolo__rosidl_typesupport_introspection_cpp
+[2.020s] [ 70%] Built target custom_interface_yolo__rosidl_typesupport_fastrtps_c
+[2.033s] [ 70%] Built target custom_interface_yolo
+[2.046s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.464s] [ 74%] Built target custom_interface_yolo__py
+[2.477s] [ 77%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_generator_py.dir/rosidl_generator_py/custom_interface_yolo/action/_camera_stream_s.c.o[0m
+[2.557s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface_yolo/libcustom_interface_yolo__rosidl_generator_py.so[0m
+[2.585s] [ 80%] Built target custom_interface_yolo__rosidl_generator_py
+[2.598s] [ 87%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.598s] [ 87%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_c.c.o[0m
+[2.598s] [ 90%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.664s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.664s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.666s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.686s] [100%] Built target custom_interface_yolo__rosidl_typesupport_introspection_c__pyext
+[2.688s] [100%] Built target custom_interface_yolo__rosidl_typesupport_c__pyext
+[2.690s] [100%] Built target custom_interface_yolo__rosidl_typesupport_fastrtps_c__pyext
+[2.696s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo -- -j16 -l16
+[2.745s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo
+[2.750s] -- Install configuration: ""
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/ament_index/resource_index/rosidl_interfaces/custom_interface_yolo
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg/rosidl_generator_c__visibility_control.h
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/camera_stream.h
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__struct.h
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__functions.h
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__type_support.h
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__functions.c
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/library_path.sh
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/library_path.dsv
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_generator_c.so
+[2.751s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_generator_c.so" to ""
+[2.751s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[2.751s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg
+[2.751s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.751s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[2.752s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__rosidl_typesupport_fastrtps_c.h
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_fastrtps_c.so
+[2.752s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_fastrtps_c.so" to ""
+[2.752s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[2.752s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.752s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[2.752s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__type_support.c
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__rosidl_typesupport_introspection_c.h
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_introspection_c.so
+[2.752s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_introspection_c.so" to ""
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_c.so
+[2.752s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_c.so" to ""
+[2.752s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[2.752s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[2.752s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__builder.hpp
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__struct.hpp
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__traits.hpp
+[2.752s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/camera_stream.hpp
+[2.753s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[2.753s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.753s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[2.753s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__rosidl_typesupport_fastrtps_cpp.hpp
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/dds_fastrtps
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_fastrtps_cpp.so
+[2.753s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.753s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[2.753s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[2.753s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__rosidl_typesupport_introspection_cpp.hpp
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__type_support.cpp
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_introspection_cpp.so
+[2.753s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_introspection_cpp.so" to ""
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_cpp.so
+[2.753s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_cpp.so" to ""
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/pythonpath.sh
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/pythonpath.dsv
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info
+[2.753s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info/top_level.txt
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info/PKG-INFO
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_introspection_c.c
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/libcustom_interface_yolo__rosidl_generator_py.so
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/_camera_stream.py
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/__init__.py
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/_camera_stream_s.c
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/__init__.py
+[2.754s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_c.c
+[2.778s] Listing '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo'...
+[2.778s] Compiling '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/__init__.py'...
+[2.778s] Listing '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action'...
+[2.778s] Compiling '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/__init__.py'...
+[2.778s] Compiling '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/_camera_stream.py'...
+[2.781s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.781s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.781s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.781s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.781s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.781s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.781s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_generator_py.so
+[2.781s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_generator_py.so" to ""
+[2.781s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/action/CameraStream.idl
+[2.781s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/action/CameraStream.action
+[2.781s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/ament_index/resource_index/package_run_dependencies/custom_interface_yolo
+[2.781s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/ament_index/resource_index/parent_prefix_path/custom_interface_yolo
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/ament_prefix_path.sh
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/ament_prefix_path.dsv
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/path.sh
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/path.dsv
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/local_setup.bash
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/local_setup.sh
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/local_setup.zsh
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/local_setup.dsv
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.dsv
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/ament_index/resource_index/packages/custom_interface_yolo
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_cExport.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_cExport-noconfig.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_typesupport_fastrtps_cExport.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_introspection_cExport.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_cExport.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_cExport-noconfig.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_cppExport.cmake
+[2.782s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_introspection_cppExport.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_cppExport.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_cppExport-noconfig.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_pyExport.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_pyExport-noconfig.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/rosidl_cmake-extras.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/ament_cmake_export_libraries-extras.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/ament_cmake_export_targets-extras.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yoloConfig.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yoloConfig-version.cmake
+[2.783s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.xml
+[2.785s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo

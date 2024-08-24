@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/yolov8_webcam/yolov8_webcam.egg-info
+writing ../../../build/yolov8_webcam/yolov8_webcam.egg-info/PKG-INFO
+writing dependency_links to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/dependency_links.txt
+writing entry points to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/entry_points.txt
+writing requirements to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/requires.txt
+writing top-level names to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/top_level.txt
+writing manifest file '../../../build/yolov8_webcam/yolov8_webcam.egg-info/SOURCES.txt'
+reading manifest file '../../../build/yolov8_webcam/yolov8_webcam.egg-info/SOURCES.txt'
+writing manifest file '../../../build/yolov8_webcam/yolov8_webcam.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build
+creating /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build/lib
+creating /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build/lib/yolov8_webcam
+copying yolov8_webcam/yolov8_node.py -> /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build/lib/yolov8_webcam
+copying yolov8_webcam/__init__.py -> /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build/lib/yolov8_webcam
+running install
+running install_lib
+creating /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam
+copying /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build/lib/yolov8_webcam/yolov8_node.py -> /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam
+copying /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build/lib/yolov8_webcam/__init__.py -> /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam
+byte-compiling /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam/yolov8_node.py to yolov8_node.cpython-310.pyc
+byte-compiling /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/ament_index
+creating /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/ament_index/resource_index
+creating /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/ament_index/resource_index/packages
+copying resource/yolov8_webcam -> /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/ament_index/resource_index/packages
+copying package.xml -> /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam
+running install_egg_info
+Copying ../../../build/yolov8_webcam/yolov8_webcam.egg-info to /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam-0.0.0-py3.10.egg-info
+running install_scripts
+Installing yolov8_node script to /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/yolov8_webcam
+writing list of installed files to '/home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/install.log'

@@ -1,0 +1,12 @@
+# Goal definition
+---
+# No specific goal message needed
+
+# Result definition
+bool success
+float32 x
+float32 y
+
+# Feedback definition
+---
+# No feedback needed

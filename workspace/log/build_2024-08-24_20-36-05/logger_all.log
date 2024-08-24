@@ -1,0 +1,699 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e3bf7a35fc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e3bf7a35b10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e3bf7a35b10>>, mixin_verb=('build',))
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.142s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fourfold/dev/inmind_final_project_test/workspace'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(best/data) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/main/main) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main/main' with type 'ros.ament_cmake' and name 'main'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/basic_navigation) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation/basic_navigation' with type 'ros.ament_cmake' and name 'basic_navigation'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/custom_interface_yolo) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/custom_interface_yolo' with type 'ros.ament_cmake' and name 'custom_interface_yolo'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/detection_interfaces) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/detection_interfaces' with type 'ros.ament_cmake' and name 'detection_interfaces'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_check) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/distance_check' with type 'ros.ament_cmake' and name 'distance_check'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/distance_interfaces) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/distance_interfaces' with type 'ros.ament_cmake' and name 'distance_interfaces'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yellow_ball_finder) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/yellow_ball_finder' with type 'ros.ament_cmake' and name 'yellow_ball_finder'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/yolov8_webcam) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/yolov8_webcam' with type 'ros.ament_python' and name 'yolov8_webcam'
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/fourfold/dev/inmind_final_project_test/workspace/install
+[0.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'basic_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.203s] DEBUG:colcon.colcon_core.verb:Building package 'basic_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation', 'merge_install': False, 'path': '/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_yolo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interface_yolo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo', 'merge_install': False, 'path': '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'detection_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'detection_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces', 'merge_install': False, 'path': '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'distance_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'distance_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces', 'merge_install': False, 'path': '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_webcam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_webcam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam', 'merge_install': False, 'path': '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam', 'symlink_install': False, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'distance_check' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'distance_check' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check', 'merge_install': False, 'path': '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check', 'symlink_install': False, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'yellow_ball_finder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'yellow_ball_finder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder', 'merge_install': False, 'path': '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder', 'symlink_install': False, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'main' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fourfold/dev/inmind_final_project_test/workspace/build/main', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fourfold/dev/inmind_final_project_test/workspace/install/main', 'merge_install': False, 'path': '/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main', 'symlink_install': False, 'test_result_base': None}
+[0.205s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.206s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces' with build type 'ament_cmake'
+[0.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces'
+[0.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces' with build type 'ament_cmake'
+[0.210s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces'
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation' with build type 'ament_cmake'
+[0.212s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation'
+[0.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo' with build type 'ament_cmake'
+[0.214s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo'
+[0.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.215s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam' with build type 'ament_python'
+[0.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_webcam', 'ament_prefix_path')
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/hook/ament_prefix_path.ps1'
+[0.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/hook/ament_prefix_path.dsv'
+[0.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/hook/ament_prefix_path.sh'
+[0.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces -- -j16 -l16
+[0.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces -- -j16 -l16
+[0.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16
+[0.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo -DCMAKE_INSTALL_PREFIX=/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo
+[0.387s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation -- -j16 -l16
+[0.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation
+[0.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_navigation)
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation' for CMake module files
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation' for CMake config files
+[0.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_navigation', 'cmake_prefix_path')
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/hook/cmake_prefix_path.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/hook/cmake_prefix_path.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/hook/cmake_prefix_path.sh'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/lib'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/bin'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/lib/pkgconfig/basic_navigation.pc'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/lib/python3.10/site-packages'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/bin'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.ps1'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.dsv'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.sh'
+[0.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.bash'
+[0.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.zsh'
+[0.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/colcon-core/packages/basic_navigation)
+[0.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces -- -j16 -l16
+[0.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_navigation)
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation' for CMake module files
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation' for CMake config files
+[0.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_navigation', 'cmake_prefix_path')
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/hook/cmake_prefix_path.ps1'
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/hook/cmake_prefix_path.dsv'
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/hook/cmake_prefix_path.sh'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/lib'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/bin'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/lib/pkgconfig/basic_navigation.pc'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/lib/python3.10/site-packages'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/bin'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.sh'
+[0.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.bash'
+[0.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/basic_navigation/package.zsh'
+[0.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/share/colcon-core/packages/basic_navigation)
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces -- -j16 -l16
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces
+[0.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detection_interfaces)
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces' for CMake module files
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces' for CMake config files
+[0.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('detection_interfaces', 'cmake_prefix_path')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/cmake_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/cmake_prefix_path.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/cmake_prefix_path.sh'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib'
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('detection_interfaces', 'ld_library_path_lib')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/ld_library_path_lib.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/ld_library_path_lib.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/ld_library_path_lib.sh'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/bin'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib/pkgconfig/detection_interfaces.pc'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib/python3.10/site-packages'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/bin'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.sh'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.bash'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.zsh'
+[0.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/colcon-core/packages/detection_interfaces)
+[0.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_interfaces)
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces' for CMake module files
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_interfaces
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces' for CMake config files
+[0.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_interfaces', 'cmake_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/cmake_prefix_path.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/cmake_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/cmake_prefix_path.sh'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib'
+[0.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_interfaces', 'ld_library_path_lib')
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/ld_library_path_lib.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/ld_library_path_lib.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/ld_library_path_lib.sh'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/bin'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib/pkgconfig/distance_interfaces.pc'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib/python3.10/site-packages'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/bin'
+[0.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.dsv'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.sh'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.bash'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.zsh'
+[0.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/colcon-core/packages/distance_interfaces)
+[0.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detection_interfaces)
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces' for CMake module files
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces' for CMake config files
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('detection_interfaces', 'cmake_prefix_path')
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/cmake_prefix_path.ps1'
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/cmake_prefix_path.dsv'
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/cmake_prefix_path.sh'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib'
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('detection_interfaces', 'ld_library_path_lib')
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/ld_library_path_lib.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/ld_library_path_lib.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/hook/ld_library_path_lib.sh'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/bin'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib/pkgconfig/detection_interfaces.pc'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib/python3.10/site-packages'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/bin'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.ps1'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.sh'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.bash'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/detection_interfaces/package.zsh'
+[0.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/share/colcon-core/packages/detection_interfaces)
+[0.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder' with build type 'ament_cmake'
+[0.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder'
+[0.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_interfaces)
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces' for CMake module files
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces' for CMake config files
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_interfaces', 'cmake_prefix_path')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/cmake_prefix_path.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/cmake_prefix_path.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/cmake_prefix_path.sh'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib'
+[0.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_interfaces', 'ld_library_path_lib')
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/ld_library_path_lib.ps1'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/ld_library_path_lib.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/hook/ld_library_path_lib.sh'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/bin'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib/pkgconfig/distance_interfaces.pc'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib/python3.10/site-packages'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/bin'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.ps1'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.dsv'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.sh'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.bash'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/distance_interfaces/package.zsh'
+[0.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/share/colcon-core/packages/distance_interfaces)
+[0.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check' with build type 'ament_cmake'
+[0.579s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check'
+[0.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble LD_LIBRARY_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder -- -j16 -l16
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check -- -j16 -l16
+[0.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam': PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_webcam build --build-base /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build install --record /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/install.log --single-version-externally-managed install_data
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble LD_LIBRARY_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder -- -j16 -l16
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check -- -j16 -l16
+[0.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble LD_LIBRARY_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder
+[0.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check
+[0.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yellow_ball_finder)
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder' for CMake module files
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble LD_LIBRARY_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/yellow_ball_finder
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder' for CMake config files
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('yellow_ball_finder', 'cmake_prefix_path')
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/hook/cmake_prefix_path.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/hook/cmake_prefix_path.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/hook/cmake_prefix_path.sh'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/bin'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib/pkgconfig/yellow_ball_finder.pc'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib/python3.10/site-packages'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/bin'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.dsv'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.sh'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.bash'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.zsh'
+[0.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/colcon-core/packages/yellow_ball_finder)
+[0.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_check)
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check' for CMake module files
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check' for CMake config files
+[0.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_check', 'cmake_prefix_path')
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/hook/cmake_prefix_path.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/hook/cmake_prefix_path.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/hook/cmake_prefix_path.sh'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/lib'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/bin'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/lib/pkgconfig/distance_check.pc'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/lib/python3.10/site-packages'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/bin'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.sh'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.bash'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.zsh'
+[0.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/colcon-core/packages/distance_check)
+[0.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yellow_ball_finder)
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder' for CMake module files
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder' for CMake config files
+[0.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('yellow_ball_finder', 'cmake_prefix_path')
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/hook/cmake_prefix_path.ps1'
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/hook/cmake_prefix_path.dsv'
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/hook/cmake_prefix_path.sh'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/bin'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib/pkgconfig/yellow_ball_finder.pc'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/lib/python3.10/site-packages'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/bin'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.ps1'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.dsv'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.bash'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/yellow_ball_finder/package.zsh'
+[0.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/share/colcon-core/packages/yellow_ball_finder)
+[0.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_check)
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check' for CMake module files
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check' for CMake config files
+[0.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_check', 'cmake_prefix_path')
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/hook/cmake_prefix_path.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/hook/cmake_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/hook/cmake_prefix_path.sh'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/lib'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/bin'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/lib/pkgconfig/distance_check.pc'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/lib/python3.10/site-packages'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/bin'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.sh'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.bash'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.zsh'
+[0.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/colcon-core/packages/distance_check)
+[0.681s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main' with build type 'ament_cmake'
+[0.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/main -- -j16 -l16
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/main
+[0.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main)
+[0.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/main' returned '0': CMAKE_PREFIX_PATH=/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces:/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation:/home/fourfold/dev/inmind_final_project_test/workspace/install/main:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/main
+[0.762s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main' for CMake module files
+[0.762s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main' for CMake config files
+[0.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('main', 'cmake_prefix_path')
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/hook/cmake_prefix_path.ps1'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/hook/cmake_prefix_path.dsv'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/hook/cmake_prefix_path.sh'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/bin'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/pkgconfig/main.pc'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/python3.10/site-packages'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/bin'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.ps1'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.dsv'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.sh'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.bash'
+[0.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.zsh'
+[0.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/colcon-core/packages/main)
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam' for CMake module files
+[0.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam' returned '0': PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_webcam build --build-base /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build install --record /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/install.log --single-version-externally-managed install_data
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam' for CMake config files
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/bin'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/pkgconfig/yolov8_webcam.pc'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages'
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_webcam', 'pythonpath')
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/hook/pythonpath.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/hook/pythonpath.dsv'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/hook/pythonpath.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/bin'
+[0.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_webcam)
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/package.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/package.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/package.sh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/package.bash'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/yolov8_webcam/package.zsh'
+[0.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/share/colcon-core/packages/yolov8_webcam)
+[0.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main)
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main' for CMake module files
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main' for CMake config files
+[0.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('main', 'cmake_prefix_path')
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/hook/cmake_prefix_path.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/hook/cmake_prefix_path.dsv'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/hook/cmake_prefix_path.sh'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/bin'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/pkgconfig/main.pc'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/lib/python3.10/site-packages'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/bin'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.sh'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.bash'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/main/package.zsh'
+[0.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/main/share/colcon-core/packages/main)
+[1.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo -DCMAKE_INSTALL_PREFIX=/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo
+[1.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo -- -j16 -l16
+[2.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo -- -j16 -l16
+[2.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo
+[2.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface_yolo)
+[2.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo' for CMake module files
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo' for CMake config files
+[2.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface_yolo', 'cmake_prefix_path')
+[3.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/cmake_prefix_path.ps1'
+[3.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/cmake_prefix_path.dsv'
+[3.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/cmake_prefix_path.sh'
+[3.000s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib'
+[3.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface_yolo', 'ld_library_path_lib')
+[3.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/ld_library_path_lib.ps1'
+[3.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/ld_library_path_lib.dsv'
+[3.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/ld_library_path_lib.sh'
+[3.001s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/bin'
+[3.001s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/pkgconfig/custom_interface_yolo.pc'
+[3.001s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/python3.10/site-packages'
+[3.001s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/bin'
+[3.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.ps1'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.dsv'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.sh'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.bash'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.zsh'
+[3.002s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/colcon-core/packages/custom_interface_yolo)
+[3.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface_yolo)
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo' for CMake module files
+[3.047s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo' for CMake config files
+[3.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface_yolo', 'cmake_prefix_path')
+[3.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/cmake_prefix_path.ps1'
+[3.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/cmake_prefix_path.dsv'
+[3.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/cmake_prefix_path.sh'
+[3.048s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib'
+[3.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface_yolo', 'ld_library_path_lib')
+[3.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/ld_library_path_lib.ps1'
+[3.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/ld_library_path_lib.dsv'
+[3.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/hook/ld_library_path_lib.sh'
+[3.048s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/bin'
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/pkgconfig/custom_interface_yolo.pc'
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/lib/python3.10/site-packages'
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/bin'
+[3.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.ps1'
+[3.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.dsv'
+[3.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.sh'
+[3.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.bash'
+[3.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.zsh'
+[3.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/share/colcon-core/packages/custom_interface_yolo)
+[3.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.050s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.054s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.063s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fourfold/dev/inmind_final_project_test/workspace/install/local_setup.ps1'
+[3.064s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fourfold/dev/inmind_final_project_test/workspace/install/_local_setup_util_ps1.py'
+[3.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fourfold/dev/inmind_final_project_test/workspace/install/setup.ps1'
+[3.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fourfold/dev/inmind_final_project_test/workspace/install/local_setup.sh'
+[3.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fourfold/dev/inmind_final_project_test/workspace/install/_local_setup_util_sh.py'
+[3.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fourfold/dev/inmind_final_project_test/workspace/install/setup.sh'
+[3.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fourfold/dev/inmind_final_project_test/workspace/install/local_setup.bash'
+[3.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fourfold/dev/inmind_final_project_test/workspace/install/setup.bash'
+[3.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fourfold/dev/inmind_final_project_test/workspace/install/local_setup.zsh'
+[3.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fourfold/dev/inmind_final_project_test/workspace/install/setup.zsh'
