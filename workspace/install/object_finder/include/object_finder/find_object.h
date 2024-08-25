@@ -43,12 +43,17 @@ public:
 
     static BT::PortsList providedPorts()
     {
-        return {BT::OutputPort<int>("frame_width"), BT::OutputPort<int>("cx"), BT::OutputPort<int>("cy")};
+        return {BT::InputPort<std::string>("object_type"), BT::OutputPort<int>("frame_width"), BT::OutputPort<int>("cx"), BT::OutputPort<int>("cy")};
     }
 
     BT::NodeStatus tick() override {
+        BT::Optional<std::string> typeOptional = getInput<std::string>("object_type");
+        if (!typeOptional) {
+            throw BT::RuntimeError("Invalid required input message: ", typeOptional.error());
+        }
+        
         auto goal_msg = FindObjectAction::Goal();
-        goal_msg.object_type = "Can";
+        goal_msg.object_type = typeOptional.value();
         auto result = action_client->async_send_goal(goal_msg, send_goal_options);
         rclcpp::spin_until_future_complete(this->get_node_base_interface(), result);
 

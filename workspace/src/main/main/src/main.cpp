@@ -37,6 +37,7 @@ public:
         factory_.registerNodeType<GripperObjectAtCorrectDistance>("GripperObjectAtCorrectDistance");
         factory_.registerNodeType<Wait>("Wait");
         auto blackboard = BT::Blackboard::create({});
+        blackboard->set<std::string>("ObjectType", "can");
         blackboard->set<int>("FrameWidth", 0);
         blackboard->set<int>("CX", 0);
         blackboard->set<int>("CY", 0);

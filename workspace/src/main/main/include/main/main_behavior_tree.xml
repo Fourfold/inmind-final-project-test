@@ -23,7 +23,7 @@
 
                 <RetryUntilSuccessful num_attempts="100000">
                     <Fallback name="find_ball">
-                        <FindObject frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
+                        <FindObject object_type="can" frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
                         <ForceFailure>
                             <Sequence name="rotate_right">
                                 <RotateRight/>
