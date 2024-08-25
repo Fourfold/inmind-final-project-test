@@ -11,9 +11,13 @@ def generate_launch_description():
             package='yellow_ball_finder',
             executable='yellow_ball_action_server',
         ),
+        #Node(
+        #    package='yolov8_webcam',
+        #    executable='yolov8_node',
+        #),
         Node(
-            package='yolov8_webcam',
-            executable='yolov8_node',
+            package='object_detector',
+            executable='object_detector',
         ),
         Node(
            package='distance_check',

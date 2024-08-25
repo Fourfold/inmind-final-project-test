@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder/include/**",
+        "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
