@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include//object_finder
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include//object_finder/find_object.h
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include//object_finder/object_on_right.h
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include//object_finder/object_at_center.h
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include//object_finder/object_on_left.h
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/ament_index/resource_index/package_run_dependencies/object_finder
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/ament_index/resource_index/parent_prefix_path/object_finder
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/environment/path.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/environment/path.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/local_setup.bash
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/local_setup.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/local_setup.zsh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/local_setup.dsv
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/package.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/ament_index/resource_index/packages/object_finder
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/cmake/object_finderConfig.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/cmake/object_finderConfig-version.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/share/object_finder/package.xml
