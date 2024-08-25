@@ -6,32 +6,32 @@
 #include <detection_interfaces/action/find_object.hpp>
 #include <rclcpp_action/rclcpp_action.hpp>
 
-using FindObject = detection_interfaces::action::FindObject;
-using GoalHandleFindObject = rclcpp_action::ClientGoalHandle<FindObject>;
+using FindObjectAction = detection_interfaces::action::FindObject;
+using GoalHandleFindObject = rclcpp_action::ClientGoalHandle<FindObjectAction>;
 
 // Action Node to move forward
-class FindObjectBall : public BT::SyncActionNode, public rclcpp::Node {
+class FindObject : public BT::SyncActionNode, public rclcpp::Node {
 public:
-    FindObjectBall(const std::string& name, const BT::NodeConfiguration& config) : BT::SyncActionNode(name, config), rclcpp::Node("find_yellow_ball") {
-        this->action_client = rclcpp_action::create_client<FindObject>(
+    FindObject(const std::string& name, const BT::NodeConfiguration& config) : BT::SyncActionNode(name, config), rclcpp::Node("find_yellow_ball") {
+        this->action_client = rclcpp_action::create_client<FindObjectAction>(
             this,
             "find_object_server"
         );
         using namespace std::placeholders;
-        send_goal_options = rclcpp_action::Client<FindObject>::SendGoalOptions();
+        send_goal_options = rclcpp_action::Client<FindObjectAction>::SendGoalOptions();
         send_goal_options.goal_response_callback = std::bind(
-            &FindObjectBall::goal_response_callback,
+            &FindObject::goal_response_callback,
             this,
             _1
         );
         send_goal_options.feedback_callback = std::bind(
-            &FindObjectBall::feedback_callback,
+            &FindObject::feedback_callback,
             this,
             _1,
             _2
         );
         send_goal_options.result_callback = std::bind(
-            &FindObjectBall::result_callback,
+            &FindObject::result_callback,
             this,
             _1
         );
@@ -47,7 +47,7 @@ public:
     }
 
     BT::NodeStatus tick() override {
-        auto goal_msg = FindObject::Goal();
+        auto goal_msg = FindObjectAction::Goal();
         goal_msg.object_type = "Can";
         auto result = action_client->async_send_goal(goal_msg, send_goal_options);
         rclcpp::spin_until_future_complete(this->get_node_base_interface(), result);
@@ -73,7 +73,7 @@ private:
 
     void feedback_callback(
         GoalHandleFindObject::SharedPtr,
-        const std::shared_ptr<const FindObject::Feedback> feedback
+        const std::shared_ptr<const FindObjectAction::Feedback> feedback
     ) { }
 
     void result_callback(const GoalHandleFindObject::WrappedResult & result) {
@@ -96,8 +96,8 @@ private:
         cy = result.result->cy;
     }
 
-    rclcpp_action::Client<FindObject>::SendGoalOptions send_goal_options;
-    rclcpp_action::Client<FindObject>::SharedPtr action_client;
+    rclcpp_action::Client<FindObjectAction>::SendGoalOptions send_goal_options;
+    rclcpp_action::Client<FindObjectAction>::SharedPtr action_client;
     bool receivedResult;
     int frame_width;
     int cx;

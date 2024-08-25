@@ -1,0 +1,24 @@
+[0.477s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam': PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_webcam build --build-base /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build install --record /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/install.log --single-version-externally-managed install_data
+[0.640s] running egg_info
+[0.641s] writing ../../../build/yolov8_webcam/yolov8_webcam.egg-info/PKG-INFO
+[0.641s] writing dependency_links to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/dependency_links.txt
+[0.641s] writing entry points to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/entry_points.txt
+[0.641s] writing requirements to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/requires.txt
+[0.641s] writing top-level names to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/top_level.txt
+[0.643s] reading manifest file '../../../build/yolov8_webcam/yolov8_webcam.egg-info/SOURCES.txt'
+[0.643s] writing manifest file '../../../build/yolov8_webcam/yolov8_webcam.egg-info/SOURCES.txt'
+[0.643s] running build
+[0.643s] running build_py
+[0.643s] copying yolov8_webcam/yolov8_node.py -> /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build/lib/yolov8_webcam
+[0.644s] running install
+[0.644s] running install_lib
+[0.645s] copying /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build/lib/yolov8_webcam/yolov8_node.py -> /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam
+[0.645s] byte-compiling /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam/yolov8_node.py to yolov8_node.cpython-310.pyc
+[0.646s] running install_data
+[0.646s] running install_egg_info
+[0.648s] removing '/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam-0.0.0-py3.10.egg-info' (and everything under it)
+[0.648s] Copying ../../../build/yolov8_webcam/yolov8_webcam.egg-info to /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam-0.0.0-py3.10.egg-info
+[0.648s] running install_scripts
+[0.662s] Installing yolov8_node script to /home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/yolov8_webcam
+[0.662s] writing list of installed files to '/home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/install.log'
+[0.683s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam' returned '0': PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_webcam build --build-base /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/build install --record /home/fourfold/dev/inmind_final_project_test/workspace/build/yolov8_webcam/install.log --single-version-externally-managed install_data

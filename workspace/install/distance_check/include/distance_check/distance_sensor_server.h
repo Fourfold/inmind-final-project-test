@@ -20,7 +20,7 @@ public:
 
 private:
     void scan_callback(const sensor_msgs::msg::LaserScan & data) {
-        forwardSum = data.ranges.at(360-2) + data.ranges.at(360-1) + data.ranges.at(0) + data.ranges.at(1) + data.ranges.at(2);
+        forwardSum = data.ranges.at(360 - 1) + data.ranges.at(360 - 2) + data.ranges.at(360 - 3) + data.ranges.at(360 - 4) + data.ranges.at(360 - 5);
     }
 
     void get_front_distance_callback(const std::shared_ptr<distance_interfaces::srv::GetFrontDistance::Request> request,

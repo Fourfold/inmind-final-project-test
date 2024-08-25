@@ -131,6 +131,7 @@ void YellowBallActionServer::execute(const std::shared_ptr<GoalHandleFindYellow>
     }
 
     if (sphere_detected) {
+        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Yellow ball detected.");
         result->found = true;
         result->frame_width = frame_width;
         result->cx = cx;

@@ -25,10 +25,10 @@ public:
         factory_.registerNodeType<YellowBallAtCenter>("YellowBallAtCenter");
         factory_.registerNodeType<YellowBallOnRight>("YellowBallOnRight");
         factory_.registerNodeType<YellowBallOnLeft>("YellowBallOnLeft");
-        factory_.registerNodeType<FindYellowBall>("FindObject");
-        factory_.registerNodeType<YellowBallAtCenter>("ObjectAtCenter");
-        factory_.registerNodeType<YellowBallOnRight>("ObjectOnRight");
-        factory_.registerNodeType<YellowBallOnLeft>("ObjectOnLeft");
+        factory_.registerNodeType<FindObject>("FindObject");
+        factory_.registerNodeType<ObjectAtCenter>("ObjectAtCenter");
+        factory_.registerNodeType<ObjectOnRight>("ObjectOnRight");
+        factory_.registerNodeType<ObjectOnLeft>("ObjectOnLeft");
         factory_.registerNodeType<RotateRight>("RotateRight");
         factory_.registerNodeType<MoveForward>("MoveForward");
         factory_.registerNodeType<MoveForwardRight>("MoveForwardRight");

@@ -18,6 +18,9 @@ class YOLOv8WebcamNode(Node):
         # Initialize the CvBridge
         self.bridge = CvBridge()
 
+        self.frame_width = None
+        self.frame = None
+
         # Create an action server
         self._action_server = ActionServer(
             self,
@@ -40,9 +43,11 @@ class YOLOv8WebcamNode(Node):
         # Convert ROS Image message to OpenCV image
         self.frame = self.bridge.imgmsg_to_cv2(msg, "bgr8")
 
-    async def execute_callback(self, goal_handle):
-        self.get_logger().info('Executing action')
+        # Set frame dimensions
+        if self.frame_width is None:
+            _, self.frame_width, _ = self.frame.shape
 
+    def execute_callback(self, goal_handle):
         input = goal_handle.request.object_type
 
         result = FindObject.Result()
@@ -59,26 +64,30 @@ class YOLOv8WebcamNode(Node):
                 y_center = (bbox[1] + bbox[3]) / 2
 
                 # Update result with bounding box center
-                result.success = True
-                result.x = float(x_center)  # Ensure x is float32
-                result.y = float(y_center)  # Ensure y is float32
-                self.get_logger().info("Can Found")
+                result.found = True
+                result.cx = int(x_center)
+                result.cy = int(y_center)
+                result.frame_width = self.frame_width
             else:
-                result.success = False
-                result.x = 0.0
-                result.y = 0.0
+                result.found = False
+                result.cx = 0
+                result.cy = 0
+                result.frame_width = self.frame_width
 
             # Annotate the frame with detection results
             annotated_frame = results[0].plot()
 
-            # Optionally display the annotated frame
-            cv2.imshow('YOLOv8 Camera Stream', annotated_frame)
-            cv2.waitKey(1)  # Display frame until next frame arrives
+            # # Optionally display the annotated frame
+            # cv2.imshow('YOLOv8 Camera Stream', annotated_frame)
+            # cv2.waitKey(1)  # Display frame until next frame arrives
 
         except Exception as e:
             self.get_logger().error(f"Failed to process image: {e}")
+        
+        goal_handle.succeed()
 
-        goal_handle.succeed(result)
+        return result
+
 
     def destroy_node(self):
         cv2.destroyAllWindows()
