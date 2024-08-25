@@ -36,13 +36,12 @@ public:
         factory_.registerNodeType<Halt>("Halt");
         factory_.registerNodeType<GripperObjectAtCorrectDistance>("GripperObjectAtCorrectDistance");
         factory_.registerNodeType<Wait>("Wait");
-        auto blackboard = BT::Blackboard::create({});
-        blackboard->set<std::string>("ObjectType", "can");
-        blackboard->set<int>("FrameWidth", 0);
-        blackboard->set<int>("CX", 0);
-        blackboard->set<int>("CY", 0);
-        blackboard->set<int>("ErrorX", 0);
-        auto tree = factory_.createTreeFromFile("./src/main/main/include/main/main_behavior_tree.xml", blackboard);
+        auto tree = factory_.createTreeFromFile("./src/main/main/include/main/main_behavior_tree.xml");
+        tree.rootBlackboard()->set<std::string>("ObjectType", "can");
+        tree.rootBlackboard()->set<int>("FrameWidth", 0);
+        tree.rootBlackboard()->set<int>("CX", 0);
+        tree.rootBlackboard()->set<int>("CY", 0);
+        tree.rootBlackboard()->set<int>("ErrorX", 0);
         BT::NodeStatus status = tree.tickRootWhileRunning();
         rclcpp::shutdown();
     }

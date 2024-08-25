@@ -1,20 +1,34 @@
 <root BTCPP_format="4" main_tree_to_execute="MainTree">
     
-    <BehaviorTree ID="FindBallSubtree">
-        <Sequence name="root_sequence">
-            <RetryUntilSuccessful num_attempts="1000">
-                <Fallback name="find_ball">
-                    <FindYellowBall frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
-                    <ForceFailure>
-                        <Sequence name="rotate_right">
-                            <RotateRight/>
-                            <Wait/>
-                        </Sequence>
-                    </ForceFailure>
-                </Fallback>
-            </RetryUntilSuccessful>
-            <Halt/>
-        </Sequence>
+    <BehaviorTree ID="CenterRobotSubTree">
+        <Fallback name="center_robot">
+            <Sequence name="approach_ball">
+                <ObjectAtCenter frame_width="{FrameWidth}" cx="{CX}"/>
+                <MoveForward/>
+            </Sequence>
+            <Sequence name="rotate_right">
+                <ObjectOnRight frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
+                <MoveForwardRight error_x="{ErrorX}"/>
+            </Sequence>
+            <Sequence name="rotate_left">
+                <ObjectOnLeft frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
+                <MoveForwardLeft  error_x="{ErrorX}"/>
+            </Sequence>
+            <ForceFailure>
+                <RotateRight/>
+            </ForceFailure>
+        </Fallback>
+    </BehaviorTree>
+
+    <BehaviorTree ID="FindObjectSubTree">
+        <RetryUntilSuccessful num_attempts="100000">
+            <Fallback name="search_for_object">
+                <FindObject object_type="{ObjectType}" frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
+                <ForceFailure>
+                    <RotateRight/>
+                </ForceFailure>
+            </Fallback>
+        </RetryUntilSuccessful>
     </BehaviorTree>
 
     <BehaviorTree ID="MainTree">
@@ -22,38 +36,10 @@
 
             <RetryUntilSuccessful num_attempts="100000">
                 <Sequence name="center_robot">
-
-                    <RetryUntilSuccessful num_attempts="100000">
-                        <Fallback name="find_ball">
-                            <FindObject object_type="can" frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
-                            <ForceFailure>
-                                <Sequence name="rotate_right">
-                                    <RotateRight/>
-                                </Sequence>
-                            </ForceFailure>
-                        </Fallback>
-                    </RetryUntilSuccessful>
-                    <!-- <SubTree ID="FindBallSubtree"/> -->
+                
+                    <SubTreePlus ID="FindObjectSubTree" ObjectType="can" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}"/>
                     
-                    <Fallback name="rotate_robot">
-                        <Sequence name="approach_ball">
-                            <ObjectAtCenter frame_width="{FrameWidth}" cx="{CX}"/>
-                            <MoveForward/>
-                        </Sequence>
-                        <Sequence name="rotate_right">
-                            <ObjectOnRight frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
-                            <MoveForwardRight error_x="{ErrorX}"/>
-                        </Sequence>
-                        <Sequence name="rotate_left">
-                            <ObjectOnLeft frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
-                            <MoveForwardLeft  error_x="{ErrorX}"/>
-                        </Sequence>
-                        <ForceFailure>
-                            <Sequence name="rotate_right">
-                                <RotateRight/>
-                            </Sequence>
-                        </ForceFailure>
-                    </Fallback>
+                    <SubTreePlus ID="CenterRobotSubTree" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}" ErrorX="{ErrorX}"/>
 
                     <GripperObjectAtCorrectDistance/>
 
@@ -66,41 +52,13 @@
 
             <RetryUntilSuccessful num_attempts="100000">
                 <Sequence name="center_robot">
-
-                    <RetryUntilSuccessful num_attempts="100000">
-                        <Fallback name="find_ball">
-                            <FindObject object_type="qr" frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
-                            <ForceFailure>
-                                <Sequence name="rotate_right">
-                                    <RotateRight/>
-                                </Sequence>
-                            </ForceFailure>
-                        </Fallback>
-                    </RetryUntilSuccessful>
-                    <!-- <SubTree ID="FindBallSubtree"/> -->
+                
+                    <SubTreePlus ID="FindObjectSubTree" ObjectType="qr" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}"/>
                     
-                    <Fallback name="rotate_robot">
-                        <Sequence name="approach_ball">
-                            <ObjectAtCenter frame_width="{FrameWidth}" cx="{CX}"/>
-                            <MoveForward/>
-                        </Sequence>
-                        <Sequence name="rotate_right">
-                            <ObjectOnRight frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
-                            <MoveForwardRight error_x="{ErrorX}"/>
-                        </Sequence>
-                        <Sequence name="rotate_left">
-                            <ObjectOnLeft frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
-                            <MoveForwardLeft  error_x="{ErrorX}"/>
-                        </Sequence>
-                        <ForceFailure>
-                            <Sequence name="rotate_right">
-                                <RotateRight/>
-                            </Sequence>
-                        </ForceFailure>
-                    </Fallback>
+                    <SubTreePlus ID="CenterRobotSubTree" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}" ErrorX="{ErrorX}"/>
 
+                    <!-- Replace with: CheckIR -->
                     <GripperObjectAtCorrectDistance/>
-                    <!-- Use IR -->
 
                     <Halt/>
 
@@ -108,6 +66,7 @@
             </RetryUntilSuccessful>
 
             <!-- Open gripper -->
+
         </Sequence>
     </BehaviorTree>
 
