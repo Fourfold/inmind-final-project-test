@@ -62,7 +62,15 @@ class ObjectDetector(Node):
         result = FindObject.Result()
         result.frame_width = self.frame_width
 
-        if (object_type == 'can'):
+        if (object_type == 'test'):
+            try:
+                # Run YOLO model on the frame
+                results = self.model(self.frame)
+
+            except Exception as e:
+                pass
+
+        elif (object_type == 'can'):
             try:
                 # Run YOLO model on the frame
                 results = self.model(self.frame)

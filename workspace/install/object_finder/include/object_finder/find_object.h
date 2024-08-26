@@ -54,6 +54,7 @@ public:
         
         auto goal_msg = FindObjectAction::Goal();
         goal_msg.object_type = typeOptional.value();
+
         auto result = action_client->async_send_goal(goal_msg, send_goal_options);
         rclcpp::spin_until_future_complete(this->get_node_base_interface(), result);
 

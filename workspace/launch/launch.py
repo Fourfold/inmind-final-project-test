@@ -8,19 +8,15 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='yellow_ball_finder',
-            executable='yellow_ball_action_server',
-        ),
-        #Node(
-        #    package='yolov8_webcam',
-        #    executable='yolov8_node',
-        #),
-        Node(
             package='object_detector',
             executable='object_detector',
         ),
         Node(
            package='distance_check',
            executable='distance_sensor_server',
+        ),
+        Node(
+           package='main',
+           executable='main_node',
         ),
     ])

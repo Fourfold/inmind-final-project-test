@@ -3,7 +3,7 @@
 
 CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp \
   /usr/include/stdc-predef.h \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include/main/ensure_detection_ready.h \
   /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h \
   /opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h \
   /usr/include/c++/11/set \
@@ -720,19 +720,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/rotate_right.h \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_right.h \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_left.h \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/halt.h \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_yellow.hpp \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__struct.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_object.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
@@ -749,8 +738,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__builder.hpp \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__traits.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__builder.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__traits.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -801,14 +790,26 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
   /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/rotate_right.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_right.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward_left.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/halt.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_yellow.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__struct.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__builder.hpp \
+  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__traits.hpp \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/find_object.h \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_object.hpp \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__builder.hpp \
-  /home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__traits.hpp \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_at_center.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_on_right.h \
   /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_on_left.h \
@@ -834,6 +835,18 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder/include/object_finder/object_at_center.h:
 
 /home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__struct.hpp:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/halt.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward.h:
 
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:
 
@@ -906,16 +919,6 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp:
 
 /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp:
-
-/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__struct.hpp:
-
-/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h:
-
-/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/halt.h:
-
-/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__builder.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -1361,10 +1364,6 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
-
-/opt/ros/humble/include/rmw/rmw/ret_types.h:
-
 /usr/include/ctype.h:
 
 /usr/include/c++/11/locale:
@@ -1373,9 +1372,9 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /usr/include/c++/11/iomanip:
 
-/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -1517,49 +1516,7 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /opt/ros/humble/include/behaviortree_cpp_v3/action_node.h:
 
-/usr/include/c++/11/stdexcept:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
-/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
-
-/opt/ros/humble/include/behaviortree_cpp_v3/utils/string_view.hpp:
-
-/opt/ros/humble/include/rcl/rcl/subscription.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/basic_navigation/move_forward.h:
-
-/usr/include/stdc-predef.h:
-
-/opt/ros/humble/include/tracetools/tracetools/tracetools.h:
-
-/opt/ros/humble/include/rcl/rcl/event_callback.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
 /usr/include/c++/11/bits/concept_check.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/opt/ros/humble/include/tracetools/tracetools/config.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -1569,9 +1526,7 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /opt/ros/humble/include/rcl/rcl/graph.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:
 
 /usr/include/c++/11/bits/stl_function.h:
 
@@ -1604,6 +1559,52 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /usr/include/c++/11/streambuf:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
+
+/opt/ros/humble/include/behaviortree_cpp_v3/utils/string_view.hpp:
+
+/opt/ros/humble/include/rcl/rcl/subscription.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/stdc-predef.h:
+
+/opt/ros/humble/include/tracetools/tracetools/tracetools.h:
+
+/opt/ros/humble/include/rcl/rcl/event_callback.h:
+
+/opt/ros/humble/include/tracetools/tracetools/config.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/11/stdexcept:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
+
+/opt/ros/humble/include/rmw/rmw/ret_types.h:
+
+/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include/main/ensure_detection_ready.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/src/main.cpp:
 
@@ -1759,8 +1760,6 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /usr/include/c++/11/ctime:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
@@ -1782,6 +1781,10 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
 
 /usr/include/c++/11/bits/invoke.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/c++/11/bits/postypes.h:
 
@@ -1857,6 +1860,10 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 
 /opt/ros/humble/include/behaviortree_cpp_v3/controls/sequence_star_node.h:
 
+/usr/include/asm-generic/errno-base.h:
+
+/opt/ros/humble/include/rmw/rmw/subscription_options.h:
+
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
@@ -1886,10 +1893,6 @@ CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/inmind_final_project
 /usr/include/c++/11/exception:
 
 /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
-
-/usr/include/asm-generic/errno-base.h:
-
-/opt/ros/humble/include/rmw/rmw/subscription_options.h:
 
 /usr/include/strings.h:
 

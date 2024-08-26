@@ -35,6 +35,10 @@
         <Sequence name="main_sequence">
 
             <RetryUntilSuccessful num_attempts="100000">
+                <EnsureDetectionReady/>
+            </RetryUntilSuccessful>
+
+            <RetryUntilSuccessful num_attempts="100000">
                 <Sequence name="center_robot">
                 
                     <SubTreePlus ID="FindObjectSubTree" ObjectType="can" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}"/>

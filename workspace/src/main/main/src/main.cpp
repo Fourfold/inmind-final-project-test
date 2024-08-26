@@ -1,3 +1,4 @@
+#include <main/ensure_detection_ready.h>
 #include <basic_navigation/move_forward.h>
 #include <basic_navigation/rotate_right.h>
 #include <basic_navigation/move_forward_right.h>
@@ -21,6 +22,7 @@ class MainNode : public rclcpp::Node {
 public:
     MainNode() : rclcpp::Node("main_node") {
         // Register nodes
+        factory_.registerNodeType<EnsureDetectionReady>("EnsureDetectionReady");
         factory_.registerNodeType<FindYellowBall>("FindYellowBall");
         factory_.registerNodeType<YellowBallAtCenter>("YellowBallAtCenter");
         factory_.registerNodeType<YellowBallOnRight>("YellowBallOnRight");
