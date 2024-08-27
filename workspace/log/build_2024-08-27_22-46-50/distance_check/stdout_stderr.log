@@ -1,0 +1,32 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/distance_sensor_server.dir/src/distance_sensor_server.cpp.o[0m
+In file included from [01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/src/distance_sensor_server.cpp:1[m[K:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/include/distance_check/distance_sensor_server.h:[m[K In member function ‘[01m[Kvoid DistanceSensorServer::get_front_distance_callback(std::shared_ptr<distance_interfaces::srv::GetFrontDistance_Request_<std::allocator<void> > >, std::shared_ptr<distance_interfaces::srv::GetFrontDistance_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/include/distance_check/distance_sensor_server.h:27:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | [01;35m[Khared_ptr<distance_interfaces::srv::GetFrontDistance::Request> request[m[K,
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable distance_sensor_server[0m
+[100%] Built target distance_sensor_server
+-- Install configuration: ""
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include/
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include//distance_check
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include//distance_check/gripper_object_at_correct_distance.h
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/include//distance_check/distance_sensor_server.h
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/lib/distance_check/distance_sensor_server
+-- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/lib/distance_check/distance_sensor_server" to ""
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/ament_index/resource_index/package_run_dependencies/distance_check
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/ament_index/resource_index/parent_prefix_path/distance_check
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/environment/path.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/environment/path.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/local_setup.bash
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/local_setup.sh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/local_setup.zsh
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/local_setup.dsv
+-- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.dsv
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/ament_index/resource_index/packages/distance_check
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/cmake/distance_checkConfig.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/cmake/distance_checkConfig-version.cmake
+-- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check/share/distance_check/package.xml

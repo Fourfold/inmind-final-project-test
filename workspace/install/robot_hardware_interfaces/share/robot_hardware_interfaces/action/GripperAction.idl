@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_hardware_interfaces/action/GripperAction.action
+// generated code does not contain a copyright notice
+
+
+module robot_hardware_interfaces {
+  module action {
+    struct GripperAction_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GripperAction_Result {
+      boolean result;
+    };
+    struct GripperAction_Feedback {
+      int32 feedback;
+    };
+  };
+};

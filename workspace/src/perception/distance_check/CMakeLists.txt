@@ -14,13 +14,14 @@ find_package(behaviortree_cpp_v3 REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(distance_interfaces REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
 
 include_directories(
   include
 )
 
 add_executable(distance_sensor_server src/distance_sensor_server.cpp)
-ament_target_dependencies(distance_sensor_server rclcpp sensor_msgs distance_interfaces)
+ament_target_dependencies(distance_sensor_server rclcpp sensor_msgs std_msgs distance_interfaces)
 
 install(
   DIRECTORY include/

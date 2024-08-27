@@ -14,7 +14,7 @@ public:
     }
     BT::NodeStatus tick() override {
         geometry_msgs::msg::Twist msg;
-        msg.angular.z = -0.3;
+        msg.angular.z = -0.5;
         msg.linear.x = 0;
         msg.linear.y = 0;
         msg.linear.z = 0;

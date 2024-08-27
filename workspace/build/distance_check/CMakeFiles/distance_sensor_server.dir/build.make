@@ -152,12 +152,12 @@ distance_sensor_server: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesu
 distance_sensor_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 distance_sensor_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 distance_sensor_server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-distance_sensor_server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-distance_sensor_server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 distance_sensor_server: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 distance_sensor_server: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+distance_sensor_server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 distance_sensor_server: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 distance_sensor_server: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+distance_sensor_server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 distance_sensor_server: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 distance_sensor_server: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 distance_sensor_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so

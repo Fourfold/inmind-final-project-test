@@ -1,0 +1,250 @@
+[0.090s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/fourfold/dev/inmind_final_project_test/workspace']
+[0.090s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/fourfold/dev/inmind_final_project_test/workspace'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72adf59438e0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x72adf5942b90>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x72adf5942b90>>, mixin_verb=('list',))
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fourfold/dev/inmind_final_project_test/workspace'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/build) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/build) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/build) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/install) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/install) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/install) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/launch/__pycache__) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/log) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/log) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/log) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces' with type 'ros.ament_cmake' and name 'robot_hardware_interfaces'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main' with type 'ros.ament_cmake' and name 'main'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation' with type 'ros.ament_cmake' and name 'basic_navigation'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo' with type 'ros.ament_cmake' and name 'custom_interface_yolo'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces' with type 'ros.ament_cmake' and name 'detection_interfaces'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check' with type 'ros.ament_cmake' and name 'distance_check'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_converter' with type 'ros.ament_cmake' and name 'distance_converter'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_interfaces' with type 'ros.ament_cmake' and name 'distance_interfaces'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector' with type 'ros.ament_python' and name 'object_detector'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder' with type 'ros.ament_cmake' and name 'object_finder'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder' with type 'ros.ament_cmake' and name 'yellow_ball_finder'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yolov8_webcam' with type 'ros.ament_python' and name 'yolov8_webcam'
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,21 @@
+[1.026s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector': PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/build/object_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detector build --build-base /home/fourfold/dev/inmind_final_project_test/workspace/build/object_detector/build install --record /home/fourfold/dev/inmind_final_project_test/workspace/build/object_detector/install.log --single-version-externally-managed install_data
+[1.255s] running egg_info
+[1.255s] writing ../../../build/object_detector/object_detector.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ../../../build/object_detector/object_detector.egg-info/dependency_links.txt
+[1.256s] writing entry points to ../../../build/object_detector/object_detector.egg-info/entry_points.txt
+[1.256s] writing requirements to ../../../build/object_detector/object_detector.egg-info/requires.txt
+[1.256s] writing top-level names to ../../../build/object_detector/object_detector.egg-info/top_level.txt
+[1.258s] reading manifest file '../../../build/object_detector/object_detector.egg-info/SOURCES.txt'
+[1.258s] writing manifest file '../../../build/object_detector/object_detector.egg-info/SOURCES.txt'
+[1.258s] running build
+[1.258s] running build_py
+[1.258s] running install
+[1.258s] running install_lib
+[1.260s] running install_data
+[1.260s] running install_egg_info
+[1.263s] removing '/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector/lib/python3.10/site-packages/object_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[1.263s] Copying ../../../build/object_detector/object_detector.egg-info to /home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector/lib/python3.10/site-packages/object_detector-0.0.0-py3.10.egg-info
+[1.264s] running install_scripts
+[1.285s] Installing object_detector script to /home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector/lib/object_detector
+[1.285s] writing list of installed files to '/home/fourfold/dev/inmind_final_project_test/workspace/build/object_detector/install.log'
+[1.313s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_detector' returned '0': PYTHONPATH=/home/fourfold/dev/inmind_final_project_test/workspace/build/object_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detector build --build-base /home/fourfold/dev/inmind_final_project_test/workspace/build/object_detector/build install --record /home/fourfold/dev/inmind_final_project_test/workspace/build/object_detector/install.log --single-version-externally-managed install_data

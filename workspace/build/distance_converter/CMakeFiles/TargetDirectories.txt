@@ -1,0 +1,10 @@
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/uninstall.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/distance_converter_uninstall.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/distance_converter.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/test.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/edit_cache.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/rebuild_cache.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/list_install_components.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/install.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/install/local.dir
+/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter/CMakeFiles/install/strip.dir

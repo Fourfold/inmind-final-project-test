@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_hardware_interfaces",
+  "non_idl_tuples": [
+    "/home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces:action/GripperAction.action"
+  ]
+}

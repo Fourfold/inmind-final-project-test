@@ -600,12 +600,10 @@ CMakeFiles/distance_sensor_server.dir/src/distance_sensor_server.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/float32.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__traits.hpp \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/get_front_distance.hpp \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__struct.hpp \
  /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__builder.hpp \

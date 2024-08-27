@@ -1,0 +1,25 @@
+[0.039s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter -- -j16 -l16
+[0.343s] [ 50%] [32mBuilding CXX object CMakeFiles/distance_converter.dir/src/distance_converter.cpp.o[0m
+[6.387s] [100%] [32m[1mLinking CXX executable distance_converter[0m
+[6.689s] [100%] Built target distance_converter
+[6.701s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter -- -j16 -l16
+[6.726s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter
+[6.732s] -- Install configuration: ""
+[6.732s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/lib/distance_converter/distance_converter
+[6.735s] -- Set runtime path of "/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/lib/distance_converter/distance_converter" to ""
+[6.735s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/ament_index/resource_index/package_run_dependencies/distance_converter
+[6.735s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/ament_index/resource_index/parent_prefix_path/distance_converter
+[6.735s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/environment/ament_prefix_path.sh
+[6.735s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/environment/ament_prefix_path.dsv
+[6.735s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/environment/path.sh
+[6.735s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/environment/path.dsv
+[6.735s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/local_setup.bash
+[6.735s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/local_setup.sh
+[6.736s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/local_setup.zsh
+[6.736s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/local_setup.dsv
+[6.736s] -- Installing: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/package.dsv
+[6.736s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/ament_index/resource_index/packages/distance_converter
+[6.736s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/cmake/distance_converterConfig.cmake
+[6.736s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/cmake/distance_converterConfig-version.cmake
+[6.736s] -- Up-to-date: /home/fourfold/dev/inmind_final_project_test/workspace/install/distance_converter/share/distance_converter/package.xml
+[6.738s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind_final_project_test/workspace/build/distance_converter

@@ -3,7 +3,7 @@ from rclpy.node import Node
 from rclpy.callback_groups import ReentrantCallbackGroup
 from detection_interfaces.action import FindObject
 from rclpy.action import ActionServer
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import CompressedImage
 from cv_bridge import CvBridge
 from ultralytics import YOLO
 import cv2
@@ -36,8 +36,9 @@ class ObjectDetector(Node):
 
         # Create a subscription to the TurtleBot3 camera topic
         self.subscription = self.create_subscription(
-            Image,
-            '/camera/image_raw',  # Replace with the correct topic if different
+            CompressedImage,
+            # '/robot_interfaces/compressed',  # Replace with the correct topic if different
+            '/camera/image_raw/compressed',
             self.image_callback,
             10,
             callback_group=self.reentrant_group
@@ -46,20 +47,32 @@ class ObjectDetector(Node):
         self.get_logger().info("Object detection action server has started. Ready for requests.")
 
     def image_callback(self, msg):
-        # Convert ROS Image message to OpenCV image
-        self.frame = self.bridge.imgmsg_to_cv2(msg, "bgr8")
+        # # Convert ROS Image message to OpenCV image
+        np_arr = np.frombuffer(msg.data, np.uint8)
+        self.frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
 
         # Convert the frame to grayscale
         self.gray_frame = cv2.cvtColor(self.frame, cv2.COLOR_BGR2GRAY)
 
         # Set frame dimensions
-        if self.frame_width is None:
-            _, self.frame_width, _ = self.frame.shape
+        
+        _, self.frame_width, _ = self.frame.shape
+        self.frame_width = int(self.frame_width)
 
     def execute_callback(self, goal_handle):
         object_type = goal_handle.request.object_type.lower()
 
         result = FindObject.Result()
+
+        if (self.frame_width is None):
+            result.frame_width = 0
+            result.found = False
+            result.cx = 0
+            result.cy = 0
+            goal_handle.succeed()
+
+            return result
+
         result.frame_width = self.frame_width
 
         if (object_type == 'test'):

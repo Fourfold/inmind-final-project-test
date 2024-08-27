@@ -1,0 +1,24 @@
+[0.230s] Invoking command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces -- -j16 -l16
+[0.275s] [  3%] Built target robot_hardware_interfaces__cpp
+[0.280s] [ 12%] Built target robot_hardware_interfaces__rosidl_generator_c
+[0.288s] [ 12%] Built target ament_cmake_python_copy_robot_hardware_interfaces
+[0.291s] [ 22%] Built target robot_hardware_interfaces__rosidl_typesupport_cpp
+[0.291s] [ 32%] Built target robot_hardware_interfaces__rosidl_typesupport_introspection_cpp
+[0.293s] [ 41%] Built target robot_hardware_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.296s] [ 51%] Built target robot_hardware_interfaces__rosidl_typesupport_introspection_c
+[0.297s] [ 61%] Built target robot_hardware_interfaces__rosidl_typesupport_c
+[0.299s] [ 70%] Built target robot_hardware_interfaces__rosidl_typesupport_fastrtps_c
+[0.317s] [ 70%] Built target robot_hardware_interfaces
+[0.333s] [ 74%] Built target robot_hardware_interfaces__py
+[0.352s] [ 80%] Built target robot_hardware_interfaces__rosidl_generator_py
+[0.369s] [ 87%] Built target robot_hardware_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.372s] [ 93%] Built target robot_hardware_interfaces__rosidl_typesupport_c__pyext
+[0.373s] [100%] Built target robot_hardware_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.449s] running egg_info
+[0.449s] writing robot_hardware_interfaces.egg-info/PKG-INFO
+[0.450s] writing dependency_links to robot_hardware_interfaces.egg-info/dependency_links.txt
+[0.450s] writing top-level names to robot_hardware_interfaces.egg-info/top_level.txt
+[0.452s] reading manifest file 'robot_hardware_interfaces.egg-info/SOURCES.txt'
+[0.452s] writing manifest file 'robot_hardware_interfaces.egg-info/SOURCES.txt'
+[0.472s] [100%] Built target ament_cmake_python_build_robot_hardware_interfaces_egg
+[0.498s] Invoked command in '/home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind_final_project_test/workspace/install/yolov8_webcam:/home/fourfold/dev/inmind_final_project_test/workspace/install/object_detector:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces -- -j16 -l16

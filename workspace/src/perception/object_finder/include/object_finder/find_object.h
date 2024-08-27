@@ -12,7 +12,7 @@ using GoalHandleFindObject = rclcpp_action::ClientGoalHandle<FindObjectAction>;
 // Action Node to move forward
 class FindObject : public BT::SyncActionNode, public rclcpp::Node {
 public:
-    FindObject(const std::string& name, const BT::NodeConfiguration& config) : BT::SyncActionNode(name, config), rclcpp::Node("find_yellow_ball") {
+    FindObject(const std::string& name, const BT::NodeConfiguration& config) : BT::SyncActionNode(name, config), rclcpp::Node("find_object") {
         this->action_client = rclcpp_action::create_client<FindObjectAction>(
             this,
             "find_object_server"

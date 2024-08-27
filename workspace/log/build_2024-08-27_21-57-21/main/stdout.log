@@ -1,0 +1,4 @@
+[ 50%] Built target test_node
+[ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable main_node[0m
+[100%] Built target main_node

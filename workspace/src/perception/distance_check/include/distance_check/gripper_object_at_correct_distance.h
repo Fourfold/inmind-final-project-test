@@ -23,7 +23,8 @@ public:
     }
 
     BT::NodeStatus tick() override {
-        if (getDistance() > 0.4) {
+        float distance = getDistance();
+        if (distance < 1.0 || distance >= 7.0) {
             return BT::NodeStatus::FAILURE;
         } else {
             RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Close distance.");
